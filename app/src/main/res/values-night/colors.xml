@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorText">#FFFFFF</color>
+
+
+    <color name="bgColor">#172227</color>
+    <color name="actionModeBackground">#FF5A6B4F</color>
+
+
+    <!--  by default some libs use this default colors, so we are just adding it and reference the colors above -->
+    <color name="colorPrimary">#273232</color>
+    <color name="colorPrimaryDark">#1D2525</color>
+    <color name="colorAccent">#FF5722</color>
+
+
+    <color name="toolbar_status_text_color">#C0DAF1</color>
+    <color name="sent_color_state">#67B359</color>
+    <color name="read_color_state">#FF5722</color>
+
+
+    <!--<color name="sent_message_background_color">#71A2A9</color>-->
+    <!--<color name="sent_message_background_color">#35607c</color>-->
+    <color name="sent_message_background_color">#3E634B</color>
+    <color name="received_message_background_color">#1D1F27</color>
+
+    <color name="sent_message_title_color">#FFFFFF</color>
+    <color name="sent_message_time_color">#97B585</color>
+
+    <color name="received_message_title_color">#FFFFFF</color>
+    <color name="gray_light">#B5B9BE</color>
+
+    <color name="header_background_color">#35607c</color>
+    <color name="header_text_color">#ffffff</color>
+
+    <color name="item_selected_background_color">#000512</color>
+    <color name="iconTintColor">#7A7A7A</color>
+
+    <color name="otp_line_color">#485480</color>
+
+
+    <color name="grey">#ababab</color>
+    <color name="blue">#72b6e7</color>
+
+
+</resources>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_internet_connection">Нет подключения к интернету</string>
+    <string name="copied_to_clipboard">Скопировано в буфер обмена…</string>
+    <string name="message_is_too_long">Сообщение слишком длинное, попробуйте сократить его</string>
+    <string name="cancel">Отмена</string>
+    <string name="ok">ОК</string>
+    <string name="confirmation">Подтверждение</string>
+    <string name="delete_messages_confirmation">Удалить сообщение?</string>
+    <string name="delete">Удалить</string>
+    <string name="share">Поделиться</string>
+    <string name="not_found">Не найдено</string>
+    <string name="deleting">Удаление…</string>
+    <string name="today">Сегодня</string>
+    <string name="yesterday">Вчера</string>
+    <string name="clear_chat">Очистить чат</string>
+    <string name="clear_chat_message">Вы уверены, что хотите удалить все сообщения в этом чате?</string>
+    <string name="unsupported_type">Неподдерживаемый тип, пожалуйста, обновите приложение</string>
+    <string name="write_your_message">Напишите свое сообщение</string>
+    <string name="how_can_I_help_you">Привет, человек, я искусственный интеллект на базе %1$s. Вы можете спросить меня всё. Как я могу вам помочь? Задайте вопрос.</string>
+    <string name="update_to_premium">Обновить до премиум</string>
+    <string name="premium_account">Премиум аккаунт</string>
+    <string name="update_to_premium_account">Обновитесь до премиум аккаунта, чтобы получить больше функций, разработанных специально для вас!</string>
+    <string name="one_month">Один месяц</string>
+    <string name="one_year">Один год</string>
+    <string name="price_per_month">%1$s %2$s/месяц</string>
+    <string name="no_ads">Без рекламы</string>
+    <string name="languages_supported_for_heroai">Поддерживается 30+ языков для AI-чата</string>
+    <string name="fast_responses">Быстрые ответы</string>
+    <string name="you_are_premium">Вы являетесь премиумом!</string>
+    <string name="get_more_for_free">Получите больше бесплатно</string>
+    <string name="get_more_for_free_toolbar">Получите больше БЕСПЛАТНО благодаря небольшой поддержке.</string>
+    <string name="check_premium_price">Проверить цену премиума</string>
+    <string name="watch_video_ads">Посмотреть видеорекламу</string>
+    <string name="best_choice">Лучший выбор</string>
+    <string name="or_you_can">Или вы можете</string>
+    <string name="one_month_premium">Премиум на один месяц</string>
+    <string name="one_year_premium">Премиум на один год</string>
+    <string name="task_is_done">Задача выполнена</string>
+    <string name="not_loaded_yet">Наградное объявление еще не готово. Попробуйте через несколько секунд.</string>
+    <string name="support_us">Результат хороший?\nЕсли вам нравится приложение, пожалуйста, поддержите нас ★★★★★!</string>
+    <string name="ok_sure">ОК, конечно</string>
+    <string name="later">Позже</string>
+    <string name="never">Никогда</string>
+    <string name="days_free">7 дней БЕСПЛАТНО!</string>
+    <string name="thank_you_for_your_support">Спасибо за вашу поддержку!</string>
+    <string name="that_is_what_app_says">Это то, что говорит "%1$s</string>
+    <string name="send_to">Отправить</string>
+    <string name="about">О приложении</string>
+    <string name="rate_app">Оценить приложение</string>
+    <string name="exit_dialog_title">Вы хотите выйти?</string>
+    <string name="my_premium">Мой премиум</string>
+    <string name="version">версия</string>
+    <string name="privacy_policy_agreement">Соглашение о политике конфиденциальности</string>
+    <string name="privacy_policy_explanation">Используя это приложение, вы соглашаетесь с нашей политикой конфиденциальности.</string>
+    <string name="contact_me">Свяжитесь со мной:</string>
+    <string name="this_is_free_version">Это бесплатная версия с рекламой</string>
+    <string name="buy_paid">Купить версию без рекламы.</string>
+    <string name="ads_free_explanation">Ненавидите рекламу? Мы тоже. \nЕсли вам нравится это приложение, пожалуйста, поддержите разработчика.</string>
+    <string name="copied">Скопировано</string>
+    <string name="search_hint">Поиск</string>
+    <string name="copy">Копировать</string>
+    <string name="prices_not_loaded_yet">Цены не загружены. Проверьте интернет-соединение или подождите немного дольше.</string>
+    <string name="limited_response">Ответ слишком длинный и был обрезан.</string>
+    <string name="daily_limit_exited">Превышен дневной лимит квоты. Злоупотребление. Попробуйте завтра.</string>
+    <string name="brazilian_regulation_message">Покупки в приложении и подписки недоступны для пользователей из Бразилии.</string>
+    <string name="settings">Настройки</string>
+    <string name="choose_history_buffer_size">Выберите размер истории буфера</string>
+    <string name="apply">Применить</string>
+    <string name="default_history_buffer_size_means">Размер буфера истории по умолчанию равен 3, что означает, что GPT получает последние 3 сообщения из чата для обработки. Например:\n\n<b><i>Пользователь:</i></b><i> расскажи мне шутку</i>\n<b><i>GPT:</i></b><i> Почему учёные не доверяют атомам? Потому что они составляют все!</i>\n<b><i>Пользователь:</i></b><i> о программистах</i>\n\nGPT понимает, что вы просите шутку о программистах. Но размер буфера 1 отправляет только 1 сообщение в GPT:\n\n<b><i>Пользователь:</i></b><i> о программистах</i>\n\nВ этом случае GPT может не понять, что вы хотите из-за отсутствия контекста.\n</string>
+    <string name="buffer_size">Размер буфера: %1$s</string>
+    <string name="symbols_quantity">Количество символов: %1$s</string>
+    <string name="history_buffer_size">Размер истории буфера</string>
+    <string name="big_buffer_warning">Большой буфер требует много токенов, и GPT будет медленно отвечать.</string>
+    <string name="choose_message_length">Выберите максимальную длину исходящего сообщения</string>
+    <string name="maximum_sent_message_length">Максимальная длина исходящего сообщения. Вы не можете отправить сообщение с количеством символов, превышающим это значение.</string>
+    <string name="token_will_be_used_means">Выберите максимальное количество токенов GPT, которые будут использоваться для генерации ответа. \n\n<b>ℹ️Что такое токены GPT?</b>\nТокены можно представлять себе как части слов. Перед обработкой API запросов входной текст разбивается на токены. Эти токены не разрезаются точно там, где начинаются или заканчиваются слова – токены могут включать в себя конечные пробелы и даже подслова. Вот несколько полезных правил для понимания токенов в терминах длины:
+\n1 токен ≈ 4 символа на английском
+\n1 токен ≈ ¾ слова
+\n100 токенов ≈ 75 слов
+\nИли
+\n1–2 предложения ≈ 30 токенов
+\n1 абзац ≈ 100 токенов
+\n1 500 слов ≈ 2048 токенов</string>
+    <string name="message_max_length">Максимальная длина исходящего сообщения</string>
+    <string name="long_message_warning">Длинное сообщение требует много токенов, и GPT будет медленно отвечать.</string>
+    <string name="choose_gpt_token_allowed">Выберите разрешенные токены GPT для 1 сообщения</string>
+    <string name="gpt_tokens">Токены GPT: %1$s</string>
+    <string name="gpt_tokens_allowed">Разрешенные токены GPT для 1 сообщения</string>
+    <string name="many_tokens_usage_warning">Много токенов GPT требует много токенов приложения.</string>
+    <string name="temperature">Температура</string>
+    <string name="temperature_value">Температура: %1$s</string>
+    <string name="choose_temperature">Выберите температуру</string>
+    <string name="temperature_means">С GPT вы можете установить температуру от 0 до 2 (по умолчанию 1). При 0 результаты будут скучными и детерминированными: одинаковый запрос даст вам практически идентичные результаты. Температура 2 означает максимально креативный и недетерминированный результат.</string>
+    <string name="tokens_costs">1 сообщение = %1$s токенов приложения</string>
+    <string name="set_default">Установить по умолчанию</string>
+    <string name="x_num" translatable="false">x%1$s</string>
+    <string name="how_we_calculate_explanation">Мы рекомендуем использовать значения настроек по умолчанию. Мы умножаем все стоимости настроек, чтобы получить стоимость 1 сообщения.</string>
+    <string name="how_we_calculate">Как мы рассчитываем?</string>
+    <string name="unlimited_tokens">Неограниченные токены*</string>
+    <string name="get_free_tokens">Получить бесплатные токены</string>
+    <string name="you_have_unlimited_tokens">У вас нет ограничений на токены</string>
+    <string name="price_per_1_in_100">%1$s %2$s/токен</string>
+    <string name="you_have_n_tokens">У вас есть %1$s токенов</string>
+    <string name="buy_10_tokens">Купить 10 токенов</string>
+    <string name="buy_100_tokens">Купить 100 токенов</string>
+    <string name="unlimited_tokens_no_ads">Неограниченные токены + Без рекламы*</string>
+    <string name="tokens_acquired">%1$s полученных токенов</string>
+    <string name="message_subscribed">Спасибо за подписку! У вас есть неограниченные токены.</string>
+    <string name="tokens_obtained">Вы получили %1$s токенов! Вы можете получить больше.</string>
+    <string name="unlimited_explanation">*Неограниченный доступ означает нормальное использование в пределах лимита в %1$s сообщений в день. Если вы превысите этот лимит, вам придется подождать до следующего дня, чтобы использовать его снова. Мы хотим, чтобы каждый использовал искусственный интеллект ответственно.</string>
+    <string name="tokens_needs">Требуется токенов: %1$s</string>
+    <string name="one_message_costs">Одно сообщение стоит %1$s токенов.</string>
+    <string name="about_gpt35turbo">Модель GPT-3.5 Turbo мощная и экономичная. Это флагманская модель этого семейства, поддерживает контекстное окно 16K и оптимизирована для диалога.</string>
+    <string name="about_gpt4">С широким общим знанием и экспертизой в различных областях GPT-4 может следовать сложным инструкциям на естественном языке и решать сложные задачи с высокой точностью.</string>
+    <string name="we_recommend_this_option_explanation">Мы рекомендуем этот вариант как наиболее экономичный.</string>
+    <string name="about_gpt4_turbo">С 128k контекстом, свежими знаниями и самым широким набором возможностей GPT-4 Turbo мощнее, чем GPT-4, и предлагается по более низкой цене.</string>
+    <string name="you_have_tokens">1 исходящее сообщение в этом чате стоит %1$s токенов. У вас есть %2$s токенов. Вы можете получить их бесплатно или проверить стоимость премиум-аккаунта.</string>
+
+</resources>

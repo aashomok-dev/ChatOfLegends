@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/search_item"
+        android:icon="@drawable/ic_search"
+        android:title="@string/search_hint"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/clear_chat_item"
+        android:icon="@drawable/baseline_delete_outline_24"
+        android:title="@string/clear_chat"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/menu_item_settings"
+        android:icon="@drawable/baseline_settings_24"
+        android:title="@string/settings"
+        app:showAsAction="always" />
+
+
+</menu>

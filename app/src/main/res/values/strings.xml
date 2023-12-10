@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="preferences" translatable="false">preferences</string>
+    <string name="rewarded_test_ad_id" translatable="false">ca-app-pub-3940256099942544/5224354917</string>
+    <string name="tokens_cost" translatable="false">+%1$s</string>
+    <string name="share_text_message" translatable="false"> <![CDATA[%1$s<br />Provided by app: %2$s]]></string>
+    <string name="times_app_was_used" translatable="false">times_app_was_used</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="copied_to_clipboard">Copied To Clipboard…</string>
+    <string name="message_is_too_long">Message is Too long please try to reduce it</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="confirmation">Confirmation</string>
+    <string name="delete_messages_confirmation">Delete Message?</string>
+    <string name="delete">Delete</string>
+    <string name="share">Share</string>
+    <string name="not_found">Not found</string>
+    <string name="deleting">Deleting…</string>
+    <string name="today">Today</string>
+    <string name="yesterday">Yesterday</string>
+    <string name="clear_chat">Clear chat</string>
+    <string name="clear_chat_message">Are you sure you want to delete all messages in this chat?</string>
+    <string name="unsupported_type">Unsupported type, please update the app</string>
+    <string name="write_your_message">Write your message</string>
+    <string name="how_can_I_help_you">Hi, Human, I am Artificial Intelligence based on %1$s. You can ask me everything. How can I help you? Ask something.</string>
+    <string name="update_to_premium">Update to premium</string>
+    <string name="premium_account">Premium account</string>
+    <string name="update_to_premium_account">Update to premium account for getting more features, developed especially for you!</string>
+    <string name="one_month">One month</string>
+    <string name="one_year">One year</string>
+    <string name="price_per_month">%1$s %2$s/month</string>
+    <string name="no_ads">No ads</string>
+    <string name="languages_supported_for_heroai">30+ languages supported for AI chat</string>
+    <string name="fast_responses">Fast responses</string>
+    <string name="you_are_premium">You are premium!</string>
+    <string name="get_more_for_free">Get more for free</string>
+    <string name="get_more_for_free_toolbar">Get more for FREE thanks to a little support.</string>
+    <string name="check_premium_price">Check premium price</string>
+    <string name="watch_video_ads">Watch one video ad</string>
+    <string name="best_choice">Best choice</string>
+    <string name="or_you_can">Or you can</string>
+    <string name="one_month_premium">One Month Premium</string>
+    <string name="one_year_premium">One Year Premium</string>
+    <string name="task_is_done">Task is done</string>
+    <string name="not_loaded_yet">The rewarded ad wasn\'t ready yet. Try in few seconds later.</string>
+    <string name="support_us">Is result good? \nIf you like the app, please support us with ★★★★★!</string>
+    <string name="ok_sure">OK, sure</string>
+    <string name="later">Later</string>
+    <string name="never">Never</string>
+    <string name="days_free">7 days FREE!</string>
+    <string name="thank_you_for_your_support">Thank you for your support!</string>
+    <string name="that_is_what_app_says">That is what "%1$s" says</string>
+    <string name="send_to">Send to</string>
+    <string name="about">About</string>
+    <string name="rate_app">Rate app</string>
+    <string name="exit_dialog_title">Do you want to exit?</string>
+    <string name="my_premium">My premium</string>
+    <string name="version">version</string>
+    <string name="privacy_policy_agreement">Privacy Policy agreement</string>
+    <string name="privacy_policy_explanation">Using this app you agreed with our Privacy Policy.</string>
+    <string name="contact_me">Contact me:</string>
+    <string name="this_is_free_version">This is a free version with ads</string>
+    <string name="buy_paid">Buy ads-free version.</string>
+    <string name="ads_free_explanation">Hate ads? We too. \nIf you like this app, please support a developer.</string>
+    <string name="copied">Copied</string>
+    <string name="search_hint">Search</string>
+    <string name="copy" tools:override="true">Copy</string>
+    <string name="prices_not_loaded_yet">Prices not loaded. Check internet connection or wait more.</string>
+    <string name="limited_response">Response is very long and have been limited.</string>
+    <string name="daily_limit_exited">Daily quota limit exceeded. Abusing. Try tomorrow.</string>
+    <string name="brazilian_regulation_message">In-app purchases and subscriptions are not available for users from Brazil.</string>
+    <string name="settings">Settings</string>
+    <string name="choose_history_buffer_size">Choose history buffer size</string>
+    <string name="apply">Apply</string>
+    <string name="default_history_buffer_size_means">Default history buffers size is 3 means that GPT receives last 3 messages from the chat to process. For example:\n\n<b><i>User:</i></b><i> give me a joke</i>\n<b><i>GPT:</i></b><i> Why don\'t scientists trust atoms? Because they make up everything!</i>\n<b><i>User:</i></b><i> about programmers</i>\n\nGPT understands that you asking joke about programmers. But buffer size 1 send only 1 message to GPT:\n\n<b><i>User:</i></b><i> about programmers</i>\n\nIn this case GPT may not understand what you want because the lack of context.\n</string>
+    <string name="buffer_size">Buffer size: %1$s</string>
+    <string name="symbols_quantity">Symbols quantity: %1$s</string>
+    <string name="history_buffer_size">History buffer size</string>
+    <string name="big_buffer_warning">Large buffer requires many tokens and GPT will respond slowly.</string>
+    <string name="choose_message_length">Choose maximum length of outgoing message</string>
+    <string name="maximum_sent_message_length">Maximum length of outgoing message. You can\'t send a message with characters quantity that exceed this value.</string>
+    <string name="token_will_be_used_means">Choose maximum GPT tokens will be used to generate response. \n\n<b>ℹ️What are GPT tokens?</b>\nTokens can be thought of as pieces of words. Before the API processes the prompts, the input is broken down into tokens. These tokens are not cut up exactly where the words start or end - tokens can include trailing spaces and even sub-words. Here are some helpful rules of thumb for understanding tokens in terms of lengths:
+\n1 token ~= 4 chars in English
+\n1 token ~= ¾ words
+\n100 tokens ~= 75 words
+\nOr
+\n1-2 sentence ~= 30 tokens
+\n1 paragraph ~= 100 tokens
+\n1,500 words ~= 2048 tokens</string>
+    <string name="message_max_length">Maximum length of outgoing message</string>
+    <string name="long_message_warning">Long message requires many tokens and GPT will respond slowly.</string>
+    <string name="choose_gpt_token_allowed">Choose GPT Tokens allowed to use for 1 message</string>
+    <string name="gpt_tokens">GPT tokens: %1$s</string>
+    <string name="gpt_tokens_allowed">GPT tokens allowed for 1 message</string>
+    <string name="many_tokens_usage_warning">Many GPT tokens requires many app tokens be used.</string>
+    <string name="temperature">Temperature</string>
+    <string name="temperature_value">Temperature: %1$s</string>
+    <string name="choose_temperature">Choose temperature</string>
+    <string name="temperature_means">With GPT, you can set a Temperature of between 0 and 2 (the default is 1). At 0, the results are boring and deterministic: the same prompt will give you nearly identical results. Temperature 2 means maximally creative and nondeterministic result.</string>
+    <string name="tokens_costs">1 message = %1$s app tokens</string>
+    <string name="set_default">Set default</string>
+    <string name="x_num" translatable="false">x%1$s</string>
+    <string name="how_we_calculate_explanation">We recommend to use default setting values. We multiply all setting option cost to get cost of 1 message.</string>
+    <string name="how_we_calculate">How we calculate?</string>
+    <string name="unlimited_tokens">Unlimited tokens*</string>
+    <string name="get_free_tokens">Get FREE tokens</string>
+    <string name="you_have_unlimited_tokens">You have unlimited tokens</string>
+    <string name="price_per_1_in_100">%1$s %2$s/token</string>
+    <string name="you_have_n_tokens">You have %1$s tokens</string>
+    <string name="buy_10_tokens">Buy 10 tokens</string>
+    <string name="buy_100_tokens">Buy 100 tokens</string>
+    <string name="unlimited_tokens_no_ads">Unlimited tokens + No ads*</string>
+    <string name="tokens_acquired">%1$s tokens acquired</string>
+    <string name="message_subscribed">Thank you for subscribing! You have unlimited tokens.</string>
+    <string name="tokens_obtained">You obtained %1$s tokens! You can obtain more.</string>
+    <string name="unlimited_explanation">*Unlimited access means normal use within a limit of %1$s messages per day. If you go over this limit, you\'ll have to wait until the next day to use it again. We want everyone to use AI responsibly.</string>
+    <string name="tokens_needs">Tokens needs: %1$s</string>
+    <string name="chat_price" translatable="false">x%1$s</string>
+    <string name="one_message_costs">One message costs %1$s tokens.</string>
+    <string name="about_gpt35turbo">GPT-3.5 Turbo model is capable and cost-effective.\nIt is flagship model of this family, supports a 16K context window and is optimized for dialog.</string>
+    <string name="about_gpt4">With broad general knowledge and domain expertise, GPT-4 can follow complex instructions in natural language and solve difficult problems with accuracy.</string>
+    <string name="we_recommend_this_option_explanation">We recommend this option as the most cost effective.</string>
+    <string name="about_gpt4_turbo">With 128k context, fresher knowledge and the broadest set of capabilities, GPT-4 Turbo is more powerful than GPT-4 and offered at a lower price.</string>
+    <string name="you_have_tokens">1 outgoing message in this chat costs %1$s tokens. You have %2$s tokens. You can get more FREE or check premium account price.</string>
+    <string name="about_homeless">Diogenes of Sinope, a Cynic philosopher in ancient Greece, rejected societal norms, embraced an ascetic lifestyle, and famously searched for an honest man with a lantern in broad daylight. His legacy endures through anecdotes of his unconventional behavior and teachings that challenge conventional thinking on virtue and materialism. He was born in Sinope, an Ionian colony on the Black Sea coast of Anatolia in 412 or 404 BC and died at Corinth in 323 BC.</string>
+    <string name="about_socratic">Socrates (469-399 BCE), a foundational figure in Western philosophy, was an ancient Greek philosopher known for his Socratic method—a form of cooperative argumentative dialogue to stimulate critical thinking. Despite never having written any philosophical texts, his ideas and teachings were recorded by his student Plato, profoundly influencing the development of ethical and epistemological philosophy.</string>
+    <string name="about_einstein">Albert Einstein (1879-1955) was a theoretical physicist whose groundbreaking work revolutionized our understanding of the universe. Best known for his theory of relativity, Einstein\'s contributions to physics earned him the Nobel Prize, and his legacy extends beyond science, influencing philosophy, education, and cultural discourse worldwide.</string>
+    <string name="about_tesla">Nikola Tesla (1856-1943), a Serbian-American inventor, electrical engineer, and futurist, made pioneering contributions to the development of alternating current (AC) electrical systems. Tesla\'s innovations and inventions, including the induction motor and Tesla coil, have left a lasting impact on the fields of electromagnetism and power transmission.</string>
+    <string name="about_gypsy_woman">Vanessa, a fortune teller often associated with the Romani community, specializes in divination and offers insights into the future. Using methods such as palmistry, tarot card readings, or crystal ball gazing, Vanessa employs mystical and traditional approaches, providing guidance and predictions based on her interpretations of symbols and patterns.</string>
+    <string name="about_elon_musk">Elon Reeve Musk (born June 28, 1971) is a businessman and investor. He is the wealthiest person in the world. \n- Founder, CEO, and chief engineer of SpaceX\n- CEO and product architect of Tesla, Inc.\n- Owner and CTO of X, formerly Twitter\n- President of the Musk Foundation\n- Founder of The Boring Company, X Corp., and xAI\n- Co-founder of Neuralink, OpenAI, Zip2, and X.com (part of PayPal)</string>
+
+</resources>

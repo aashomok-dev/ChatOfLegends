@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_internet_connection">Keine Internetverbindung</string>
+    <string name="copied_to_clipboard">In Zwischenablage kopiert…</string>
+    <string name="message_is_too_long">Die Nachricht ist zu lang, bitte versuchen Sie, sie zu kürzen</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="ok">OK</string>
+    <string name="confirmation">Bestätigung</string>
+    <string name="delete_messages_confirmation">Nachricht loschen?</string>
+    <string name="delete">Löschen</string>
+    <string name="share">Teilen</string>
+    <string name="not_found">Nicht gefunden</string>
+    <string name="deleting">Löschen…</string>
+    <string name="today">Heute</string>
+    <string name="yesterday">Gestern</string>
+    <string name="clear_chat">Chat leeren</string>
+    <string name="clear_chat_message">Möchten Sie wirklich alle Nachrichten in diesem Chat löschen?</string>
+    <string name="unsupported_type">Nicht unterstützter Typ, bitte aktualisieren Sie die App</string>
+    <string name="write_your_message">Schreiben Sie Ihre Nachricht</string>
+    <string name="how_can_I_help_you">Salut, humain, je suis une intelligence artificielle basée sur %1$s. Vous pouvez me poser toutes vos questions. Comment puis-je vous aider? Posez quelque chose.</string>
+    <string name="update_to_premium">Auf Premium aktualisieren</string>
+    <string name="premium_account">Premium-Konto</string>
+    <string name="update_to_premium_account">Aktualisieren Sie auf ein Premium-Konto, um weitere Funktionen zu erhalten, die speziell für Sie entwickelt wurden!</string>
+    <string name="one_month">Ein Monat</string>
+    <string name="one_year">Ein Jahr</string>
+    <string name="price_per_month">%1$s %2$s/Monat</string>
+    <string name="no_ads">Keine Werbung</string>
+    <string name="languages_supported_for_heroai">Über 30 Sprachen für den AI-Chat unterstützt</string>
+    <string name="fast_responses">Schnelle Antworten</string>
+    <string name="you_are_premium">Sie sind Premium!</string>
+    <string name="get_more_for_free">Holen Sie sich mehr kostenlos</string>
+    <string name="get_more_for_free_toolbar">Holen Sie sich mehr KOSTENLOS dank einer kleinen Unterstützung.</string>
+    <string name="check_premium_price">Überprüfen Sie den Premium-Preis</string>
+    <string name="watch_video_ads">Ein Video anzeigen</string>
+    <string name="best_choice">Beste Wahl</string>
+    <string name="or_you_can">Oder Sie können</string>
+    <string name="one_month_premium">Premium d\'un mois</string>
+    <string name="one_year_premium">Premium d\'un an</string>
+    <string name="task_is_done">La tâche est terminée</string>
+    <string name="not_loaded_yet">La publicité récompensée n\'était pas prête. Réessayez dans quelques secondes.</string>
+    <string name="support_us">Le résultat est-il bon? \nSi vous aimez l\'application, soutenez-nous avec ★★★★★!</string>
+    <string name="ok_sure">OK, bien sûr</string>
+    <string name="later">Plus tard</string>
+    <string name="never">Jamais</string>
+    <string name="days_free">7 jours GRATUITS!</string>
+    <string name="thank_you_for_your_support">Merci pour votre soutien!</string>
+    <string name="that_is_what_app_says">Voici ce que dit "%1$s</string>
+    <string name="send_to">Envoyer à</string>
+    <string name="about">À propos de</string>
+    <string name="rate_app">Noter l\'application</string>
+    <string name="exit_dialog_title">Voulez-vous quitter?</string>
+    <string name="my_premium">Mon compte premium</string>
+    <string name="version">version</string>
+    <string name="privacy_policy_agreement">Accord sur la politique de confidentialité</string>
+    <string name="privacy_policy_explanation">En utilisant cette application, vous acceptez notre politique de confidentialité.</string>
+    <string name="contact_me">Contactez-moi:</string>
+    <string name="this_is_free_version">Il s\'agit d\'une version gratuite avec des publicités</string>
+    <string name="buy_paid">Acheter la version sans publicité.</string>
+    <string name="ads_free_explanation">Vous détestez les publicités? Nous aussi. \nSi vous aimez cette application, veuillez soutenir le développeur.</string>
+    <string name="copied">Copié</string>
+    <string name="search_hint">Rechercher</string>
+    <string name="copy">Copier</string>
+    <string name="prices_not_loaded_yet">Prix non chargés. Vérifiez votre connexion internet ou attendez un peu plus longtemps.</string>
+    <string name="limited_response">La réponse est très longue et a été limitée.</string>
+    <string name="daily_limit_exited">Limite quotidienne de quota dépassée. Abus. Réessayez demain.</string>
+    <string name="brazilian_regulation_message">Les achats intégrés et les abonnements ne sont pas disponibles pour les utilisateurs du Brésil.</string>
+    <string name="settings">Paramètres</string>
+    <string name="choose_history_buffer_size">Choisir la taille du tampon d\'historique</string>
+    <string name="apply">Appliquer</string>
+    <string name="default_history_buffer_size_means">La taille par défaut des tampons d\'historique est de 3, ce qui signifie que GPT reçoit les 3 derniers messages de la discussion à traiter. Par exemple:\n\n<b><i>Utilisateur:</i></b><i> donne-moi une blague</i>\n<b><i>GPT:</i></b><i>Pourquoi les scientifiques ne font-ils pas confiance aux atomes? Parce qu\'ils composent tout!</i>\n<b><i>Utilisateur:</i></b><i> à propos des programmeurs</i>\n\nGPT comprend que vous demandez une blague sur les programmeurs. Mais avec une taille de tampon de 1, seul 1 message est envoyé à GPT:\n\n<b><i>Utilisateur:</i></b><i> à propos des programmeurs</i>\n\nDans ce cas, GPT pourrait ne pas comprendre ce que vous voulez en raison du manque de contexte.\n</string>
+    <string name="buffer_size">Taille du tampon: %1$s</string>
+    <string name="symbols_quantity">Quantité de symboles: %1$s</string>
+    <string name="history_buffer_size">Taille du tampon d\'historique</string>
+    <string name="big_buffer_warning">Un grand tampon nécessite de nombreux jetons et GPT répondra lentement.</string>
+    <string name="choose_message_length">Choisir la longueur maximale du message sortant</string>
+    <string name="maximum_sent_message_length">Longueur maximale du message sortant. Vous ne pouvez pas envoyer de message dont la quantité de caractères dépasse cette valeur.</string>
+    <string name="token_will_be_used_means">Choisissez le nombre maximal de jetons GPT qui seront utilisés pour générer une réponse. \n\n<b>ℹ️Qu\'est-ce que les jetons GPT?</b>\nLes jetons peuvent être considérés comme des morceaux de mots. Avant que l\'API ne traite les invites, l\'entrée est décomposée en jetons. Ces jetons ne sont pas découpés exactement là où les mots commencent ou finissent – les jetons peuvent inclure des espaces de fin et même des sous–mots. Voici quelques règles pratiques pour comprendre les jetons en termes de longueurs:
+\n1 jeton ≈ 4 caractères en anglais
+\n1 jeton ≈ ¾ de mots
+\n100 jetons ≈ 75 mots
+\nOu
+\n1–2 phrases ≈ 30 jetons
+\n1 paragraphe ≈ 100 jetons
+\n1 500 mots ≈ 2048 jetons</string>
+    <string name="message_max_length">Longueur maximale du message sortant</string>
+    <string name="long_message_warning">Un long message nécessite de nombreux jetons et GPT répondra lentement.</string>
+    <string name="choose_gpt_token_allowed">Choisir les jetons GPT autorisés à utiliser pour 1 message</string>
+    <string name="gpt_tokens">Jetons GPT: %1$s</string>
+    <string name="gpt_tokens_allowed">Jetons GPT autorisés pour 1 message</string>
+    <string name="many_tokens_usage_warning">De nombreux jetons GPT nécessitent l\'utilisation de nombreux jetons d\'application.</string>
+    <string name="temperature">Température</string>
+    <string name="temperature_value">Température: %1$s</string>
+    <string name="choose_temperature">Choisir la température</string>
+    <string name="temperature_means">Avec GPT, vous pouvez régler une température entre 0 et 2 (la valeur par défaut est 1). À 0, les résultats sont ennuyeux et déterministes: la même requête donnera des résultats presque identiques. La température 2 signifie un résultat maximale créatif et non déterministe.</string>
+    <string name="tokens_costs">1 message = %1$s jetons d\'application</string>
+    <string name="set_default">Rétablir les paramètres par défaut</string>
+    <string name="x_num" translatable="false">x%1$s</string>
+    <string name="how_we_calculate_explanation">Nous recommandons d\'utiliser les valeurs par défaut. Nous multiplions tous les coûts des options de paramétrage pour obtenir le coût d\'1 message.</string>
+    <string name="how_we_calculate">Comment calculons-nous?</string>
+    <string name="unlimited_tokens">Jetons illimités*</string>
+    <string name="get_free_tokens">Obtenez des jetons gratuits</string>
+    <string name="you_have_unlimited_tokens">Vous avez des jetons illimités</string>
+    <string name="price_per_1_in_100">%1$s %2$s/jeton</string>
+    <string name="you_have_n_tokens">Vous avez %1$s jetons</string>
+    <string name="buy_10_tokens">Acheter 10 jetons</string>
+    <string name="buy_100_tokens">Acheter 100 jetons</string>
+    <string name="unlimited_tokens_no_ads">Jetons illimités + Pas de publicité*</string>
+    <string name="tokens_acquired">%1$s jetons acquis</string>
+    <string name="message_subscribed">Merci de vous abonner! Vous avez des jetons illimités.</string>
+    <string name="tokens_obtained">Vous avez obtenu %1$s jetons! Vous pouvez en obtenir plus.</string>
+    <string name="unlimited_explanation">*Un accès illimité signifie une utilisation normale dans la limite de %1$s messages par jour. Si vous dépassez cette limite, vous devrez attendre jusqu\'au lendemain pour l\'utiliser à nouveau. Nous voulons que tout le monde utilise l\'IA de manière responsable.</string>
+    <string name="tokens_needs">Besoin en jetons: %1$s</string>
+    <string name="one_message_costs">Un message coûte %1$s jetons.</string>
+    <string name="about_gpt35turbo">Le modèle GPT-3.5 Turbo est performant et rentable.\nC\'est le modèle phare de cette famille, prend en charge une fenêtre contextuelle de 16K et est optimisé pour le dialogue.</string>
+    <string name="about_gpt4">Avec une connaissance générale étendue et une expertise dans un domaine, GPT-4 peut suivre des instructions complexes en langage naturel et résoudre des problèmes difficiles avec précision.</string>
+    <string name="we_recommend_this_option_explanation">Nous recommandons cette option comme la plus rentable.</string>
+    <string name="about_gpt4_turbo">Avec un contexte de 128 000, des connaissances plus récentes et le plus large éventail de capacités, GPT-4 Turbo est plus puissant que GPT-4 et est proposé à un prix inférieur.</string>
+    <string name="you_have_tokens">1 message sortant dans cette discussion coûte %1$s jetons. Vous avez %2$s jetons. Vous pouvez en obtenir plus GRATUITEMENT ou consulter le prix du compte premium.</string>
+
+</resources>

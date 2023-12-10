@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_internet_connection">インターネットに接続されていません</string>
+    <string name="copied_to_clipboard">クリップボードにコピーしました</string>
+    <string name="message_is_too_long">メッセージが長すぎます。短くしてください</string>
+    <string name="cancel">キャンセル</string>
+    <string name="ok">OK</string>
+    <string name="confirmation">確認</string>
+    <string name="delete_messages_confirmation">メッセージを削除しますか？</string>
+    <string name="delete">削除</string>
+    <string name="share">共有</string>
+    <string name="not_found">見つかりません</string>
+    <string name="deleting">削除中…</string>
+    <string name="today">今日</string>
+    <string name="yesterday">昨日</string>
+    <string name="clear_chat">チャットをクリア</string>
+    <string name="clear_chat_message">このチャットのすべてのメッセージを削除しますか？</string>
+    <string name="unsupported_type">サポートされていない形式です。アプリを更新してください</string>
+    <string name="write_your_message">メッセージを書く</string>
+    <string name="how_can_I_help_you">こんにちは、人間さん、私は%1$sに基づく人工知能です。何でも聞いてください。どうお手伝いできますか？何か質問してください。</string>
+    <string name="update_to_premium">プレミアムにアップデート</string>
+    <string name="premium_account">プレミアムアカウント</string>
+    <string name="update_to_premium_account">特別に開発されたより多くの機能を得るために、プレミアムアカウントにアップデートしてください！</string>
+    <string name="one_month">1ヶ月</string>
+    <string name="one_year">1年</string>
+    <string name="price_per_month">%1$s %2$s/月</string>
+    <string name="no_ads">広告なし</string>
+    <string name="languages_supported_for_heroai">AIチャットに対応した30以上の言語</string>
+    <string name="fast_responses">高速な応答</string>
+    <string name="you_are_premium">プレミアムユーザーです！</string>
+    <string name="get_more_for_free">無料でさらに入手</string>
+    <string name="get_more_for_free_toolbar">少しのサポートにより、無料でさらに多くを手に入れることができます。</string>
+    <string name="check_premium_price">プレミアム価格を確認</string>
+    <string name="watch_video_ads">動画広告を視聴する</string>
+    <string name="best_choice">最良の選択</string>
+    <string name="or_you_can">または</string>
+    <string name="one_month_premium">1ヶ月プレミアム</string>
+    <string name="one_year_premium">1年プレミアム</string>
+    <string name="task_is_done">タスクが完了しました</string>
+    <string name="not_loaded_yet">報酬広告はまだ準備ができていません。数秒後に再試行してください。</string>
+    <string name="support_us">結果は良かったですか？\nこのアプリが気に入った場合、★★★★★でサポートしてください！</string>
+    <string name="ok_sure">はい、もちろん</string>
+    <string name="later">後で</string>
+    <string name="never">決して</string>
+    <string name="days_free">7日間無料！</string>
+    <string name="thank_you_for_your_support">ご支援いただきありがとうございます！</string>
+    <string name="that_is_what_app_says">これが "%1$s" の言うことです</string>
+    <string name="send_to">送信先</string>
+    <string name="about">アプリについて</string>
+    <string name="rate_app">アプリを評価する</string>
+    <string name="exit_dialog_title">終了しますか？</string>
+    <string name="my_premium">プレミアム</string>
+    <string name="version">バージョン</string>
+    <string name="privacy_policy_agreement">プライバシーポリシーに同意</string>
+    <string name="privacy_policy_explanation">このアプリの使用により、プライバシーポリシーに同意したものとみなされます。</string>
+    <string name="contact_me">お問い合わせ：</string>
+    <string name="this_is_free_version">広告付きの無料版です</string>
+    <string name="buy_paid">広告のない有料版を購入する</string>
+    <string name="ads_free_explanation">広告が嫌いですか？私たちも同じです。\nこのアプリが気に入った場合は、開発者をサポートしてください。</string>
+    <string name="copied">コピーしました</string>
+    <string name="search_hint">検索</string>
+    <string name="copy">コピー</string>
+    <string name="prices_not_loaded_yet">価格が読み込まれていません。インターネット接続を確認するか、もう少し待ってください。</string>
+    <string name="limited_response">返答が非常に長く、制限されました。</string>
+    <string name="daily_limit_exited">1日のクオータ制限を超過しました。悪用行為です。明日お試しください。</string>
+    <string name="brazilian_regulation_message">アプリ内での購入と定期購読はブラジルのユーザーには利用できません。</string>
+    <string name="settings">設定</string>
+    <string name="choose_history_buffer_size">履歴バッファのサイズを選択</string>
+    <string name="apply">適用</string>
+    <string name="default_history_buffer_size_means">デフォルトの履歴バッファのサイズは3で、これはGPTがチャットから過去3つのメッセージを受信して処理することを意味します。例えば:\n\n<b><i>ユーザー:</i></b><i>冗談を教えて</i>\n<b><i>GPT:</i></b><i>なぜ科学者は原子を信じないのですか？なぜならそれらはすべてを構成しているからです！</i>\n<b><i>ユーザー:</i></b><i>プログラマーについて</i>\n\nGPTは、プログラマーに関する冗談を尋ねていることを理解しています。ただし、バッファサイズ1ではGPTに1つのメッセージしか送信されません:\n\n<b><i>ユーザー:</i></b><i>プログラマーについて</i>\n\nこの場合、コンテキストが不足しているため、GPTが要求を理解しない可能性があります。\n</string>
+    <string name="buffer_size">バッファサイズ: %1$s</string>
+    <string name="symbols_quantity">シンボルの数量: %1$s</string>
+    <string name="history_buffer_size">履歴バッファのサイズ</string>
+    <string name="big_buffer_warning">大きなバッファは多くのトークンを必要とし、GPTは遅く応答します。</string>
+    <string name="choose_message_length">送信メッセージの最大長を選択</string>
+    <string name="maximum_sent_message_length">送信メッセージの最大長。この値を超える文字数のメッセージは送信できません。</string>
+    <string name="token_will_be_used_means">応答を生成するために使用される最大のGPTトークンを選択してください。\n\n<b>ℹ️GPTトークンとは？</b>\nトークンは単語の一部と考えることができます。APIがプロンプトを処理する前に、入力はトークンに分割されます。これらのトークンは単語の開始または終了する場所に厳密に分割されていないため、トークンには末尾のスペースやサブワードさえ含まれることがあります。トークンに関する以下の規則は、長さの観点からトークンを理解するのに役立ちます：
+\n1 トークン ≈ 英語で 4 文字
+\n1 トークン ≈ ¾ 単語
+\n100 トークン ≈ 75 単語
+\nまたは
+\n1-2 文 ≈ 30 トークン
+\n1 段落 ≈ 100 トークン
+\n1,500 単語 ≈ 2048 トークン</string>
+    <string name="message_max_length">送信メッセージの最大長</string>
+    <string name="long_message_warning">長いメッセージは多くのトークンを必要とし、GPTは遅く応答します。</string>
+    <string name="choose_gpt_token_allowed">1メッセージあたりに使用できるGPTトークンを選択</string>
+    <string name="gpt_tokens">GPTトークン: %1$s</string>
+    <string name="gpt_tokens_allowed">1メッセージあたりに使用できるGPTトークン</string>
+    <string name="many_tokens_usage_warning">多くのGPTトークンは多くのアプリトークンの使用を必要とします。</string>
+    <string name="temperature">温度</string>
+    <string name="temperature_value">温度: %1$s</string>
+    <string name="choose_temperature">温度を選択</string>
+    <string name="temperature_means">GPTでは、温度を0から2の間で設定できます（デフォルトは1）。 0では結果は退屈で決定論的です：同じプロンプトはほぼ同じ結果を提供します。温度2は最大限にクリエイティブで非決定的な結果を意味します。</string>
+    <string name="tokens_costs">1メッセージ = %1$sアプリトークン</string>
+    <string name="set_default">デフォルトに設定</string>
+    <string name="x_num" translatable="false">x%1$s</string>
+    <string name="how_we_calculate_explanation">デフォルトの設定値を使用することをお勧めします。 1メッセージのコストを得るために、すべての設定オプションのコストを乗算します。</string>
+    <string name="how_we_calculate">計算方法</string>
+    <string name="unlimited_tokens">無制限のトークン*</string>
+    <string name="get_free_tokens">無料トークンを入手</string>
+    <string name="you_have_unlimited_tokens">無制限のトークンを所有しています</string>
+    <string name="price_per_1_in_100">%1$s %2$s/トークン</string>
+    <string name="you_have_n_tokens">%1$sトークンを所有しています</string>
+    <string name="buy_10_tokens">10トークンを購入</string>
+    <string name="buy_100_tokens">100トークンを購入</string>
+    <string name="unlimited_tokens_no_ads">無制限のトークン + 広告なし*</string>
+    <string name="tokens_acquired">%1$sトークンを取得しました</string>
+    <string name="message_subscribed">ご購読いただきありがとうございます！無制限のトークンをお持ちです。</string>
+    <string name="tokens_obtained">%1$sトークンを入手しました！さらに取得できます。</string>
+    <string name="unlimited_explanation">*無制限のアクセスは1日あたりの%1$sメッセージの範囲内での通常の使用を意味します。この制限を超えると、次の日まで再度使用できません。皆さんにAIを責任ある方法で使用していただきたいと考えています。</string>
+    <string name="tokens_needs">トークンの必要量: %1$s</string>
+    <string name="one_message_costs">1メッセージのコストは%1$sトークンです。</string>
+    <string name="about_gpt35turbo">GPT-3.5 Turboモデルは高性能でコスト効果があります。これはこのファミリーのフラッグシップモデルで、16Kのコンテキストウィンドウをサポートし、対話に最適化されています。</string>
+    <string name="about_gpt4">広範な一般的な知識とドメインの専門知識を備えたGPT-4は、自然な言語で複雑な指示に従い、高い精度で難しい問題を解決できます。</string>
+    <string name="we_recommend_this_option_explanation">最も費用対効果が高いとお勧めしています。</string>
+    <string name="about_gpt4_turbo">128kのコンテキスト、最新の知識、そして最も広範な能力を備えたGPT-4 Turboは、GPT-4よりも強力で低価格で提供されています。</string>
+    <string name="you_have_tokens">このチャットでの1通の送信メッセージのコストは%1$sトークンです。%2$sトークンお持ちです。さらに無料で入手するか、プレミアムアカウントの価格を確認できます。</string>
+
+</resources>

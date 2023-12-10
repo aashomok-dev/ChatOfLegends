@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_internet_connection">无网络连接</string>
+    <string name="copied_to_clipboard">已复制到剪贴板…</string>
+    <string name="message_is_too_long">消息太长，请尝试缩短</string>
+    <string name="cancel">取消</string>
+    <string name="ok">确定</string>
+    <string name="confirmation">确认</string>
+    <string name="delete_messages_confirmation">删除消息？</string>
+    <string name="delete">删除</string>
+    <string name="share">分享</string>
+    <string name="not_found">未找到</string>
+    <string name="deleting">正在删除…</string>
+    <string name="today">今天</string>
+    <string name="yesterday">昨天</string>
+    <string name="clear_chat">清除聊天记录</string>
+    <string name="clear_chat_message">确定要删除此聊天中的所有消息吗？</string>
+    <string name="unsupported_type">不支持的类型，请更新应用</string>
+    <string name="write_your_message">编写您的消息</string>
+    <string name="how_can_I_help_you">嗨，人类，我是基于%1$s的人工智能。你可以问我任何问题。我可以帮你什么？问点什么吧。</string>
+    <string name="update_to_premium">升级到高级版</string>
+    <string name="premium_account">高级账户</string>
+    <string name="update_to_premium_account">升级到高级账户以获得更多功能，专为您开发！</string>
+    <string name="one_month">一个月</string>
+    <string name="one_year">一年</string>
+    <string name="price_per_month">%1$s每月 %2$s</string>
+    <string name="no_ads">无广告</string>
+    <string name="languages_supported_for_heroai">支持30多种语言进行AI聊天</string>
+    <string name="fast_responses">快速响应</string>
+    <string name="you_are_premium">您已经是高级用户！</string>
+    <string name="get_more_for_free">免费获取更多</string>
+    <string name="get_more_for_free_toolbar">通过一点支持免费获取更多。</string>
+    <string name="check_premium_price">查看高级价格</string>
+    <string name="watch_video_ads">观看一个视频广告</string>
+    <string name="best_choice">最佳选择</string>
+    <string name="or_you_can">或者您可以</string>
+    <string name="one_month_premium">一个月高级版</string>
+    <string name="one_year_premium">一年高级版</string>
+    <string name="task_is_done">任务已完成</string>
+    <string name="not_loaded_yet">奖励广告尚未准备就绪。请稍后几秒钟再试。</string>
+    <string name="support_us">结果满意吗？\n如果您喜欢该应用，请给予我们★★★★★的支持！</string>
+    <string name="ok_sure">好的，当然</string>
+    <string name="later">稍后</string>
+    <string name="never">永不</string>
+    <string name="days_free">免费7天！</string>
+    <string name="thank_you_for_your_support">感谢您的支持！</string>
+    <string name="that_is_what_app_says">这是"%1$s"说的</string>
+    <string name="send_to">发送至</string>
+    <string name="about">关于</string>
+    <string name="rate_app">评价应用</string>
+    <string name="exit_dialog_title">您要退出吗？</string>
+    <string name="my_premium">我的高级版</string>
+    <string name="version">版本</string>
+    <string name="privacy_policy_agreement">隐私政策协议</string>
+    <string name="privacy_policy_explanation">使用本应用即表示您同意我们的隐私政策。</string>
+    <string name="contact_me">联系我：</string>
+    <string name="this_is_free_version">这是带有广告的免费版本</string>
+    <string name="buy_paid">购买无广告版本。</string>
+    <string name="ads_free_explanation">讨厌广告？我们也是。\n如果您喜欢这个应用，请支持开发者。</string>
+    <string name="copied">已复制</string>
+    <string name="search_hint">搜索</string>
+    <string name="copy">复制</string>
+    <string name="prices_not_loaded_yet">价格未加载。请检查网络连接或稍后再试。</string>
+    <string name="limited_response">回复过长，已被限制。</string>
+    <string name="daily_limit_exited">已超出每日配额限制。滥用。请明天再试。</string>
+    <string name="brazilian_regulation_message">应用内购买和订阅不适用于巴西用户。</string>
+    <string name="settings">设置</string>
+    <string name="choose_history_buffer_size">选择历史缓冲区大小</string>
+    <string name="apply">应用</string>
+    <string name="default_history_buffer_size_means">默认历史缓冲区大小为3，这意味着GPT接收来自聊天的最后3条消息进行处理。例如:\n\n<b><i>用户：</i></b><i>给我一个笑话</i>\n<b><i>GPT：</i></b><i>为什么科学家不相信原子？因为它们构成了一切！</i>\n<b><i>用户：</i></b><i>关于程序员的</i>\n\nGPT理解你要求关于程序员的笑话。但是，缓冲区大小为1只发送1条消息给GPT:\n\n<b><i>用户：</i></b><i>关于程序员的</i>\n\n在这种情况下，由于缺乏上下文，GPT可能无法理解你的需求。\n</string>
+    <string name="buffer_size">缓冲区大小：%1$s</string>
+    <string name="symbols_quantity">符号数量：%1$s</string>
+    <string name="history_buffer_size">历史缓冲区大小</string>
+    <string name="big_buffer_warning">大缓冲区需要很多令牌，GPT会响应较慢。</string>
+    <string name="choose_message_length">选择发送消息的最大长度</string>
+    <string name="maximum_sent_message_length">发送消息的最大长度。您不能发送超过此值的字符数量的消息。</string>
+    <string name="token_will_be_used_means">选择用于生成响应的最大GPT令牌数。\n\n<b>ℹ️什么是GPT令牌？</b>\n令牌可以被视为单词的部分。在API处理提示之前，输入被分解成令牌。这些令牌不是在单词开始或结束的地方准确切割的 - 令牌可以包括尾随空格，甚至是子词。以下是一些关于令牌长度的有用的经验法则：
+\n1个令牌≈4个英文字符
+\n1个令牌≈¾个单词
+\n100个令牌≈75个单词
+\n或
+\n1-2句子≈30个令牌
+\n1段≈100个令牌
+\n1,500个单词≈2048个令牌</string>
+    <string name="message_max_length">发送消息的最大长度</string>
+    <string name="long_message_warning">长消息需要很多令牌，GPT会响应较慢。</string>
+    <string name="choose_gpt_token_allowed">选择允许用于1条消息的GPT令牌</string>
+    <string name="gpt_tokens">GPT令牌：%1$s</string>
+    <string name="gpt_tokens_allowed">允许用于1条消息的GPT令牌</string>
+    <string name="many_tokens_usage_warning">许多GPT令牌需要使用许多应用程序令牌。</string>
+    <string name="temperature">温度</string>
+    <string name="temperature_value">温度：%1$s</string>
+    <string name="choose_temperature">选择温度</string>
+    <string name="temperature_means">使用GPT，您可以设置温度在0和2之间（默认为1）。在0时，结果很无聊且确定性：相同的提示几乎会给出相同的结果。温度2表示极富创意和不确定性的结果。</string>
+    <string name="tokens_costs">1条消息 = %1$s应用令牌</string>
+    <string name="set_default">设置为默认</string>
+    <string name="x_num" translatable="false">x%1$s</string>
+    <string name="how_we_calculate_explanation">我们建议使用默认设置值。我们将所有设置选项的成本相乘，以得到1条消息的成本。</string>
+    <string name="how_we_calculate">我们如何计算？</string>
+    <string name="unlimited_tokens">无限令牌*</string>
+    <string name="get_free_tokens">获取免费令牌</string>
+    <string name="you_have_unlimited_tokens">您有无限的令牌</string>
+    <string name="price_per_1_in_100">%1$s %2$s/令牌</string>
+    <string name="you_have_n_tokens">您有%1$s个令牌</string>
+    <string name="buy_10_tokens">购买10个令牌</string>
+    <string name="buy_100_tokens">购买100个令牌</string>
+    <string name="unlimited_tokens_no_ads">无限令牌 + 无广告*</string>
+    <string name="tokens_acquired">获取了%1$s个令牌</string>
+    <string name="message_subscribed">感谢您订阅！您有无限的令牌。</string>
+    <string name="tokens_obtained">您获得了%1$s个令牌！您可以获得更多。</string>
+    <string name="unlimited_explanation">*无限访问意味着在每天的%1$s条消息的限制内正常使用。如果超过此限制，您将不得不等到第二天才能再次使用。我们希望每个人都能负责任地使用人工智能。</string>
+    <string name="tokens_needs">令牌需求：%1$s</string>
+    <string name="one_message_costs">一条消息花费 %1$s 代币。</string>
+    <string name="about_gpt35turbo">GPT-3.5 Turbo 模型具备能力且经济高效。\n它是该系列的旗舰型号，支持 16K 上下文窗口，并针对对话进行了优化。</string>
+    <string name="about_gpt4">具备广泛的通用知识和领域专业知识，GPT-4 能够以自然语言遵循复杂的指令，并准确解决困难问题。</string>
+    <string name="we_recommend_this_option_explanation">我们推荐此选项作为最具成本效益的选择。</string>
+    <string name="about_gpt4_turbo">拥有 128k 上下文、更新的知识和最广泛的功能集，GPT-4 Turbo 比 GPT-4 更强大，价格更低。</string>
+    <string name="you_have_tokens">在此聊天中，1条发出的消息需要 %1$s 代币。您有 %2$s 代币。您可以免费获取更多，或查看高级帐户价格。</string>
+
+</resources>

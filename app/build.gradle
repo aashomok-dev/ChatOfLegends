@@ -1,0 +1,120 @@
+//docs https://fireapp-docs.devlomi.com/2.0/encryption-notes
+plugins {
+    id 'com.android.application'
+    id 'com.google.gms.google-services'
+    id 'com.google.firebase.crashlytics'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'kotlin-android-extensions'
+    id 'realm-android'
+}
+
+android {
+
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        applicationId 'com.ashomok.heroai'
+        minSdkVersion 26
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 94
+        versionName '2.94'
+        multiDexEnabled true
+        vectorDrawables.useSupportLibrary = true
+
+        resValue 'string', 'app_name', 'HeroAI'
+        resValue 'string', 'app_folder_name', 'heroai'
+        resValue 'string', 'app_package_name', 'com.ashomok.heroai'
+        resValue 'string', 'author', 'by AshomokDev'
+        resValue 'string', 'my_email', 'ashomokdev@gmail.com'
+
+        //AdMob Ads Units IDs
+        resValue 'string', 'banner_unit_id_new_chat', 'ca-app-pub-5221781428763224/1660339447'
+        resValue 'string', 'interstitial_ad_id', 'ca-app-pub-5221781428763224/2409727607'
+        resValue 'string', 'admob_app_id', 'ca-app-pub-5221781428763224~4478074474'
+        resValue 'string', 'rewarded_ad_id', 'ca-app-pub-5221781428763224/3535218388'
+        resValue 'string', 'rewarded_interstitial_ad_id', 'ca-app-pub-5221781428763224/4885660476'
+
+        //AdMob Ads Enable/Disable
+        resValue 'bool', 'is_chat_ad_enabled', 'false' //forbidden by admob policy
+        resValue 'bool', 'is_chat_list_ad_enabled', 'false'
+        resValue 'bool', 'is_interstitial_ad_enabled', 'false'
+    }
+
+    buildTypes {
+
+        debug {
+            splits.abi.enable = false
+            splits.density.enable = false
+        }
+        buildTypes.each {
+            /* BASE_64_ENCODED_PUBLIC_KEY should be YOUR APPLICATION'S PUBLIC KEY
+        * (that you got from the Google Play developer console). This is not your
+        * developer public key, it's the *app-specific* public key.
+        *
+        * Instead of just storing the entire literal string here embedded in the
+        * program,  construct the key at runtime from pieces or
+        * use bit manipulation (for example, XOR with some other string) to hide
+        * the actual key.  The key itself is not secret information, but we don't
+        * want to make it easy for an attacker to replace the public key with one
+        * of their own and then fake messages from the server.
+        */
+            it.buildConfigField 'String', 'BASE_64_ENCODED_PUBLIC_KEY', '"MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlwYwKrwJ0H3YqdMIqNNDEAPhNZTnY6FHGytuSSbnPgbjTnOf3m6J1It/Q6maDCnqPxAwdk9ZBvCMNNGEsOCgR0N+P7tPcfQQc/NMtVhCZFBx1Xd6V8wjKop4xWAiXiqhM0RtXbO0heny4IEsnF5fuHOYB3JUGb76b1AImYl9v6Xvic5wkshD7D8jUD4GRCrzxqPTIUoE11No4W/s72y2PYST2JFYoympgS9qtD7NgRfmKHFjy2l/CUy30zgaIOmNDkiwcIhXdRwWrWhhXvHGyCIwFb4a9cpqRSV9+6aFZp+HxStL3cEFP5zTNeNaOEmg1fG+FjheEpFKIeWI47yZaQIDAQAB"'
+        }
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    kapt {
+        correctErrorTypes true
+    }
+    namespace 'com.ashomok.heroai'
+}
+androidExtensions {
+    experimental = true
+}
+
+configurations.implementation {
+    exclude group: 'org.jetbrains.kotlin', module: 'kotlin-stdlib-jdk8'
+    exclude group: 'org.jetbrains.kotlin', module: 'kotlin-stdlib-jdk7'
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.10.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.firebase:firebase-core:21.1.1'
+    implementation 'com.android.billingclient:billing:6.1.0'
+    implementation 'com.google.firebase:firebase-ads:22.5.0'
+    implementation 'androidx.work:work-runtime:2.8.1'
+    implementation 'com.aghajari.emojiview:AXEmojiView:1.3.0'
+    implementation 'io.realm:android-adapters:4.0.0'
+    implementation 'com.googlecode.ez-vcard:ez-vcard:0.10.3'
+    implementation 'androidx.multidex:multidex:2.0.1'
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1'
+    implementation 'com.squareup.retrofit2:retrofit:2.9.0'
+    implementation "com.squareup.okhttp3:okhttp:4.9.0"
+    implementation 'com.squareup.okhttp3:logging-interceptor:4.7.2'
+    implementation 'com.jakewharton.retrofit:retrofit2-kotlin-coroutines-adapter:0.9.2'
+    implementation 'com.squareup.retrofit2:converter-gson:2.9.0'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.8'
+    implementation platform('com.google.firebase:firebase-bom:31.5.0')
+    implementation 'com.google.firebase:firebase-crashlytics'
+    implementation 'com.google.firebase:firebase-analytics'
+    implementation("com.google.firebase:firebase-analytics-ktx")
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.6.1'
+    implementation 'ca.barrenechea.header-decor:header-decor:0.2.8'
+    implementation 'androidx.lifecycle:lifecycle-process:2.6.2'
+    implementation 'androidx.core:core:1.12.0'
+    implementation "androidx.preference:preference:1.2.1"
+    implementation 'com.google.android.ump:user-messaging-platform:2.1.0'
+}
+
+repositories {
+    mavenCentral()
+}

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "86445825935",
+    "project_id": "heroai-4bcd9",
+    "storage_bucket": "heroai-4bcd9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86445825935:android:c7d17a30b1a09b221475fa",
+        "android_client_info": {
+          "package_name": "com.ashomok.heroai"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAtIvbiLvVaZqD-LFZ9DFHFQV0TxIQu6X8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

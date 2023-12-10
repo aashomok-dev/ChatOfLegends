@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_internet_connection">인터넷 연결 없음</string>
+    <string name="copied_to_clipboard">클립보드에 복사됨…</string>
+    <string name="message_is_too_long">메시지가 너무 깁니다. 줄여주세요.</string>
+    <string name="cancel">취소</string>
+    <string name="ok">확인</string>
+    <string name="confirmation">확인</string>
+    <string name="delete_messages_confirmation">메시지 삭제?</string>
+    <string name="delete">삭제</string>
+    <string name="share">공유</string>
+    <string name="not_found">찾을 수 없음</string>
+    <string name="deleting">삭제 중…</string>
+    <string name="today">오늘</string>
+    <string name="yesterday">어제</string>
+    <string name="clear_chat">채팅 지우기</string>
+    <string name="clear_chat_message">이 채팅의 모든 메시지를 삭제하시겠습니까?</string>
+    <string name="unsupported_type">지원되지 않는 유형입니다. 앱을 업데이트하세요.</string>
+    <string name="write_your_message">메시지를 작성하세요</string>
+    <string name="how_can_I_help_you">안녕하세요, 인간님, 저는 %1$s를 기반으로 한 인공지능입니다. 모든 것을 물어보실 수 있습니다. 어떻게 도와드릴까요? 질문하세요.</string>
+    <string name="update_to_premium">프리미엄으로 업데이트</string>
+    <string name="premium_account">프리미엄 계정</string>
+    <string name="update_to_premium_account">더 많은 기능을 위해 프리미엄 계정으로 업데이트하세요! 특별히 개발된 기능입니다.</string>
+    <string name="one_month">1개월</string>
+    <string name="one_year">1년</string>
+    <string name="price_per_month">%1$s %2$s/월</string>
+    <string name="no_ads">광고 없음</string>
+    <string name="languages_supported_for_heroai">AI 채팅 지원 언어: 30개 이상</string>
+    <string name="fast_responses">빠른 응답</string>
+    <string name="you_are_premium">프리미엄 사용자입니다!</string>
+    <string name="get_more_for_free">무료로 더 많은 기능 사용하기</string>
+    <string name="get_more_for_free_toolbar">조금의 지원으로 무료로 더 많은 기능을 이용하세요.</string>
+    <string name="check_premium_price">프리미엄 가격 확인하기</string>
+    <string name="watch_video_ads">비디오 광고 시청하기</string>
+    <string name="best_choice">최상의 선택</string>
+    <string name="or_you_can">또는</string>
+    <string name="one_month_premium">1개월 프리미엄</string>
+    <string name="one_year_premium">1년 프리미엄</string>
+    <string name="task_is_done">작업이 완료되었습니다</string>
+    <string name="not_loaded_yet">보상 광고가 아직 준비되지 않았습니다. 나중에 몇 초 후에 다시 시도해보세요.</string>
+    <string name="support_us">결과가 좋으신가요? \n앱을 좋아하신다면 ★★★★★로 저희를 지원해주세요!</string>
+    <string name="ok_sure">확인, 그럼요</string>
+    <string name="later">나중에</string>
+    <string name="never">결코</string>
+    <string name="days_free">7일 무료!</string>
+    <string name="thank_you_for_your_support">지원해주셔서 감사합니다!</string>
+    <string name="that_is_what_app_says">%1$s"의 말입니다</string>
+    <string name="send_to">보내기</string>
+    <string name="about">앱 정보</string>
+    <string name="rate_app">앱 평가하기</string>
+    <string name="exit_dialog_title">종료하시겠습니까?</string>
+    <string name="my_premium">내 프리미엄</string>
+    <string name="version">버전</string>
+    <string name="privacy_policy_agreement">개인정보 처리방침 동의</string>
+    <string name="privacy_policy_explanation">이 앱을 사용함으로써 개인정보 처리방침에 동의합니다.</string>
+    <string name="contact_me">문의하기:</string>
+    <string name="this_is_free_version">이것은 광고가 포함된 무료 버전입니다</string>
+    <string name="buy_paid">광고 없는 버전 구매하기</string>
+    <string name="ads_free_explanation">광고가 싫으신가요? 저희도 그렇습니다. \n이 앱을 좋아하신다면 개발자를 지원해주세요.</string>
+    <string name="copied">복사되었습니다</string>
+    <string name="search_hint">검색</string>
+    <string name="copy">복사</string>
+    <string name="prices_not_loaded_yet">가격을 불러오지 못했습니다. 인터넷 연결을 확인하거나 좀 더 기다려주세요.</string>
+    <string name="limited_response">응답이 매우 길고 제한되었습니다.</string>
+    <string name="daily_limit_exited">일일 할당량 초과. 남용 중입니다. 내일 시도해보세요.</string>
+    <string name="brazilian_regulation_message">앱 내 구매 및 구독은 브라질 사용자에게 제공되지 않습니다.</string>
+    <string name="settings">설정</string>
+    <string name="choose_history_buffer_size">히스토리 버퍼 크기 선택</string>
+    <string name="apply">적용</string>
+    <string name="default_history_buffer_size_means">기본 히스토리 버퍼 크기는 3이며, 이는 GPT가 채팅에서 마지막 3개의 메시지를 받아 처리한다는 것을 의미합니다. 예를 들어:\n\n<b><i>사용자:</i></b><i>농담 좀 해줘</i>\n<b><i>GPT:</i></b><i>왜 과학자들은 원자를 믿지 않을까요? 왜냐하면 그들은 모든 것을 구성하고 있기 때문이죠!</i>\n<b><i>사용자:</i></b><i>프로그래머에 관한 거</i>\n\nGPT는 여러분이 프로그래머에 관한 농담을 요청하고 있다는 것을 이해합니다. 그러나 버퍼 크기가 1이면 GPT에게 1개의 메시지만 전송됩니다:\n\n<b><i>사용자:</i></b><i>프로그래머에 관한 거</i>\n\n이 경우 맥락이 부족하여 GPT가 원하는 내용을 이해하지 못할 수 있습니다.\n</string>
+    <string name="buffer_size">버퍼 크기: %1$s</string>
+    <string name="symbols_quantity">기호 수: %1$s</string>
+    <string name="history_buffer_size">히스토리 버퍼 크기</string>
+    <string name="big_buffer_warning">큰 버퍼는 많은 토큰을 필요로 하며, GPT의 응답이 느릴 수 있습니다.</string>
+    <string name="choose_message_length">발신 메시지의 최대 길이 선택</string>
+    <string name="maximum_sent_message_length">발신 메시지의 최대 길이. 이 값을 초과하는 글자 수의 메시지는 보낼 수 없습니다.</string>
+    <string name="token_will_be_used_means">응답 생성에 사용될 최대 GPT 토큰을 선택하세요. \n\n<b>ℹ️GPT 토큰이란?</b>\n토큰은 단어의 일부로 생각할 수 있습니다. API가 프롬프트를 처리하기 전에 입력은 토큰으로 분할됩니다. 이러한 토큰은 단어의 시작이나 끝에 정확하게 잘려 나가지 않습니다. 토큰에는 뒤에 공백이나 하위 단어조차 포함될 수 있습니다. 토큰에 대한 몇 가지 유용한 규칙은 다음과 같습니다. 길이 측면에서 토큰을 이해하는 데 도움이 됩니다:
+\n1 토큰 ≈ 영어로 4 문자
+\n1 토큰 ≈ ¾ 단어
+\n100 토큰 ≈ 75 단어
+\n또는
+\n1-2 문장 ≈ 30 토큰
+\n1 단락 ≈ 100 토큰
+\n1,500 단어 ≈ 2048 토큰</string>
+    <string name="message_max_length">발신 메시지의 최대 길이</string>
+    <string name="long_message_warning">긴 메시지는 많은 토큰을 필요로 하며, GPT의 응답이 느릴 수 있습니다.</string>
+    <string name="choose_gpt_token_allowed">1 메시지에 사용할 수 있는 GPT 토큰 선택</string>
+    <string name="gpt_tokens">GPT 토큰: %1$s</string>
+    <string name="gpt_tokens_allowed">1 메시지에 사용할 수 있는 GPT 토큰</string>
+    <string name="many_tokens_usage_warning">많은 GPT 토큰은 많은 앱 토큰의 사용을 필요로 합니다.</string>
+    <string name="temperature">온도</string>
+    <string name="temperature_value">온도: %1$s</string>
+    <string name="choose_temperature">온도 선택</string>
+    <string name="temperature_means">GPT에서는 온도를 0에서 2 사이로 설정할 수 있습니다(기본값은 1입니다). 0에서는 결과가 지루하고 결정론적입니다. 동일한 프롬프트는 거의 동일한 결과를 제공합니다. 온도 2는 최대한 창의적이고 결정론적이지 않은 결과를 의미합니다.</string>
+    <string name="tokens_costs">1 메시지 = %1$s 앱 토큰</string>
+    <string name="set_default">기본값으로 설정</string>
+    <string name="x_num" translatable="false">x%1$s</string>
+    <string name="how_we_calculate_explanation">우리는 기본 설정 값을 사용하는 것이 좋습니다. 1 메시지의 비용을 얻기 위해 모든 설정 옵션 비용을 곱합니다.</string>
+    <string name="how_we_calculate">계산 방법</string>
+    <string name="unlimited_tokens">무제한 토큰*</string>
+    <string name="get_free_tokens">무료 토큰 얻기</string>
+    <string name="you_have_unlimited_tokens">무제한 토큰을 보유하고 있습니다</string>
+    <string name="price_per_1_in_100">%1$s %2$s/토큰</string>
+    <string name="you_have_n_tokens">%1$s 토큰을 보유하고 있습니다</string>
+    <string name="buy_10_tokens">10 토큰 구매</string>
+    <string name="buy_100_tokens">100 토큰 구매</string>
+    <string name="unlimited_tokens_no_ads">무제한 토큰 + 광고 없음*</string>
+    <string name="tokens_acquired">%1$s 토큰 획득</string>
+    <string name="message_subscribed">가입해 주셔서 감사합니다! 무제한 토큰을 보유하고 계십니다.</string>
+    <string name="tokens_obtained">%1$s 토큰을 획득했습니다! 더 얻을 수 있습니다.</string>
+    <string name="unlimited_explanation">*무제한 액세스는 일일 %1$s 메시지 사용 한도 내에서 정상적으로 사용할 수 있음을 의미합니다. 이 한도를 초과하면 다음 날까지 기다려야합니다. 모두가 책임 있게 AI를 사용하길 바랍니다.</string>
+    <string name="tokens_needs">토큰 필요: %1$s</string>
+    <string name="one_message_costs">한 건의 메시지 비용은 %1$s 토큰입니다.</string>
+    <string name="about_gpt35turbo">GPT-3.5 Turbo 모델은 강력하면서도 비용 효율적입니다. 이는 이 가족의 플래그십 모델로 16K 컨텍스트 창을 지원하며 대화에 최적화되어 있습니다.</string>
+    <string name="about_gpt4">폭넓은 일반 지식과 도메인 전문 지식을 갖춘 GPT-4는 자연어에서 복잡한 지시를 따르고 정확하게 어려운 문제를 해결할 수 있습니다.</string>
+    <string name="we_recommend_this_option_explanation">우리는 이 옵션을 가장 비용 효율적인 것으로 추천합니다.</string>
+    <string name="about_gpt4_turbo">128k 컨텍스트, 최신 지식 및 가장 넓은 능력을 갖춘 GPT-4 Turbo는 GPT-4보다 더 강력하며 더 낮은 가격에 제공됩니다.</string>
+    <string name="you_have_tokens">이 채팅에서 1개의 메시지 비용은 %1$s 토큰입니다. %2$s 토큰이 있습니다. 무료로 더 받거나 프리미엄 계정 가격을 확인할 수 있습니다.</string>
+
+</resources>

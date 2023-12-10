@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="no_internet_connection">Nessuna connessione Internet</string>
+    <string name="copied_to_clipboard">Copiato negli Appunti…</string>
+    <string name="message_is_too_long">Il messaggio è troppo lungo, prova a ridurlo</string>
+    <string name="cancel">Annulla</string>
+    <string name="ok">OK</string>
+    <string name="confirmation">Conferma</string>
+    <string name="delete_messages_confirmation">Eliminare il messaggio?</string>
+    <string name="delete">Elimina</string>
+    <string name="share">Condividi</string>
+    <string name="not_found">Non trovato</string>
+    <string name="deleting">Eliminazione in corso…</string>
+    <string name="today">Oggi</string>
+    <string name="yesterday">Ieri</string>
+    <string name="clear_chat">Cancella chat</string>
+    <string name="clear_chat_message">Sei sicuro di voler eliminare tutti i messaggi in questa chat?</string>
+    <string name="unsupported_type">Tipo non supportato, aggiorna l\'applicazione</string>
+    <string name="write_your_message">Scrivi il tuo messaggio</string>
+    <string name="how_can_I_help_you">Ciao, umano, sono un\'intelligenza artificiale basata su %1$s. Puoi chiedermi qualsiasi cosa. Come posso aiutarti? Fai una domanda.</string>
+    <string name="update_to_premium">Aggiorna a Premium</string>
+    <string name="premium_account">Account Premium</string>
+    <string name="update_to_premium_account">Aggiorna all\'account Premium per ottenere più funzionalità, sviluppate appositamente per te!</string>
+    <string name="one_month">Un mese</string>
+    <string name="one_year">Un anno</string>
+    <string name="price_per_month">%1$s %2$s/mese</string>
+    <string name="no_ads">Nessuna pubblicità</string>
+    <string name="languages_supported_for_heroai">Supporto per oltre 30 lingue per la chat AI</string>
+    <string name="fast_responses">Risposte rapide</string>
+    <string name="you_are_premium">Sei Premium!</string>
+    <string name="get_more_for_free">Ottieni di più gratuitamente</string>
+    <string name="get_more_for_free_toolbar">Ottieni di più GRATUITAMENTE grazie a un piccolo supporto.</string>
+    <string name="check_premium_price">Verifica il prezzo Premium</string>
+    <string name="watch_video_ads">Guarda un annuncio video</string>
+    <string name="best_choice">Scelta migliore</string>
+    <string name="or_you_can">Oppure puoi</string>
+    <string name="one_month_premium">Premium di un mese</string>
+    <string name="one_year_premium">Premium di un anno</string>
+    <string name="task_is_done">Task completato</string>
+    <string name="not_loaded_yet">L\'annuncio premiato non era ancora pronto. Riprova tra qualche secondo.</string>
+    <string name="support_us">Il risultato è buono? \nSe ti piace l\'app, sostienici con ★★★★★!</string>
+    <string name="ok_sure">OK, certo</string>
+    <string name="later">Dopo</string>
+    <string name="never">Mai</string>
+    <string name="days_free">7 giorni GRATIS!</string>
+    <string name="thank_you_for_your_support">Grazie per il tuo supporto!</string>
+    <string name="that_is_what_app_says">Questo è ciò che dice "%1$s</string>
+    <string name="send_to">Invia a</string>
+    <string name="about">Informazioni</string>
+    <string name="rate_app">Valuta l\'app</string>
+    <string name="exit_dialog_title">Vuoi uscire?</string>
+    <string name="my_premium">Il mio Premium</string>
+    <string name="version">versione</string>
+    <string name="privacy_policy_agreement">Accordo sulla Privacy</string>
+    <string name="privacy_policy_explanation">Utilizzando questa app, accetti la nostra Informativa sulla Privacy.</string>
+    <string name="contact_me">Contattami:</string>
+    <string name="this_is_free_version">Questa è una versione gratuita con annunci</string>
+    <string name="buy_paid">Acquista la versione senza annunci.</string>
+    <string name="ads_free_explanation">Odio gli annunci? Anche noi. \nSe ti piace questa app, sostieni lo sviluppatore.</string>
+    <string name="copied">Copiato</string>
+    <string name="search_hint">Cerca</string>
+    <string name="copy">Copia</string>
+    <string name="prices_not_loaded_yet">Prezzi non caricati. Controlla la connessione internet o attendi ancora un po\'.</string>
+    <string name="limited_response">La risposta è molto lunga ed è stata limitata.</string>
+    <string name="daily_limit_exited">Limite giornaliero della quota superato. Abuso. Riprova domani.</string>
+    <string name="brazilian_regulation_message">Gli acquisti in-app e le sottoscrizioni non sono disponibili per gli utenti del Brasile.</string>
+    <string name="settings">Impostazioni</string>
+    <string name="choose_history_buffer_size">Scegli la dimensione del buffer di cronologia</string>
+    <string name="apply">Applica</string>
+    <string name="default_history_buffer_size_means">La dimensione predefinita del buffer di cronologia è 3, il che significa che GPT riceve le ultime 3 messaggi dalla chat per elaborarle. Ad esempio:\n\n<b><i>Utente:</i></b><i> raccontami una barzelletta</i>\n<b><i>GPT:</i></b><i> Perché gli scienziati non si fidano degli atomi? Perché compongono tutto!</i>\n<b><i>Utente:</i></b><i> sugli informatici</i>\n\nGPT capisce che stai chiedendo una barzelletta sugli informatici. Ma una dimensione del buffer di 1 invia solo 1 messaggio a GPT:\n\n<b><i>Utente:</i></b><i> sugli informatici</i>\n\nIn questo caso, GPT potrebbe non capire cosa vuoi a causa della mancanza di contesto.</string>
+    <string name="buffer_size">Dimensione del buffer: %1$s</string>
+    <string name="symbols_quantity">Quantità di simboli: %1$s</string>
+    <string name="history_buffer_size">Dimensione del buffer di cronologia</string>
+    <string name="big_buffer_warning">Un buffer grande richiede molti token e GPT risponderà lentamente.</string>
+    <string name="choose_message_length">Scegli la lunghezza massima del messaggio in uscita</string>
+    <string name="maximum_sent_message_length">Lunghezza massima del messaggio in uscita. Non è possibile inviare un messaggio con una quantità di caratteri che supera questo valore.</string>
+    <string name="token_will_be_used_means">Scegli il numero massimo di token GPT che saranno utilizzati per generare la risposta. \n\n<b>ℹ️Cosa sono i token GPT?</b>\nI token possono essere considerati come pezzi di parole. Prima che l\'API elabori i prompt, l\'input viene suddiviso in token. Questi token non vengono tagliati esattamente dove iniziano o finiscono le parole - i token possono includere spazi finali e persino sotto-parole. Ecco alcune regole pratiche utili per capire i token in termini di lunghezza:
+\n1 token ≈ 4 caratteri in inglese
+\n1 token ≈ ¾ parole
+\n100 token ≈ 75 parole
+\nO
+\n1-2 frasi ≈ 30 token
+\n1 paragrafo ≈ 100 token
+\n1.500 parole ≈ 2048 token</string>
+    <string name="message_max_length">Lunghezza massima del messaggio in uscita</string>
+    <string name="long_message_warning">Un messaggio lungo richiede molti token e GPT risponderà lentamente.</string>
+    <string name="choose_gpt_token_allowed">Scegli i token GPT consentiti per 1 messaggio</string>
+    <string name="gpt_tokens">Token GPT: %1$s</string>
+    <string name="gpt_tokens_allowed">Token GPT consentiti per 1 messaggio</string>
+    <string name="many_tokens_usage_warning">Molti token GPT richiedono molti token di app.</string>
+    <string name="temperature">Temperatura</string>
+    <string name="temperature_value">Temperatura: %1$s</string>
+    <string name="choose_temperature">Scegli la temperatura</string>
+    <string name="temperature_means">Con GPT, puoi impostare una temperatura tra 0 e 2 (il valore predefinito è 1). A 0, i risultati sono noiosi e deterministici: la stessa richiesta ti darà risultati quasi identici. La temperatura 2 significa risultati massimamente creativi e non deterministici.</string>
+    <string name="tokens_costs">1 messaggio = %1$s token di app</string>
+    <string name="set_default">Imposta predefinito</string>
+    <string name="x_num" translatable="false">x%1$s</string>
+    <string name="how_we_calculate_explanation">Consigliamo di utilizzare i valori predefiniti delle impostazioni. Moltiplichiamo tutti i costi delle opzioni delle impostazioni per ottenere il costo di 1 messaggio.</string>
+    <string name="how_we_calculate">Come calcoliamo?</string>
+    <string name="unlimited_tokens">Token illimitati*</string>
+    <string name="get_free_tokens">Ottieni token GRATUITI</string>
+    <string name="you_have_unlimited_tokens">Hai token illimitati</string>
+    <string name="price_per_1_in_100">%1$s %2$s/token</string>
+    <string name="you_have_n_tokens">Hai %1$s token</string>
+    <string name="buy_10_tokens">Acquista 10 token</string>
+    <string name="buy_100_tokens">Acquista 100 token</string>
+    <string name="unlimited_tokens_no_ads">Token illimitati + Senza pubblicità*</string>
+    <string name="tokens_acquired">%1$s token acquisiti</string>
+    <string name="message_subscribed">Grazie per l\'iscrizione! Hai token illimitati.</string>
+    <string name="tokens_obtained">Hai ottenuto %1$s token! Puoi ottenerne di più.</string>
+    <string name="unlimited_explanation">*L\'accesso illimitato significa un utilizzo normale entro un limite di %1$s messaggi al giorno. Se superi questo limite, dovrai aspettare fino al giorno successivo per usarlo nuovamente. Vogliamo che tutti utilizzino l\'IA in modo responsabile.</string>
+    <string name="tokens_needs">Necessità di token: %1$s</string>
+    <string name="one_message_costs">Un messaggio costa %1$s token.</string>
+    <string name="about_gpt35turbo">Il modello GPT-3.5 Turbo è potente ed economico. È il modello principale di questa famiglia, supporta una finestra di contesto da 16K ed è ottimizzato per il dialogo.</string>
+    <string name="about_gpt4">Con una vasta conoscenza generale e competenze specifiche nel campo, GPT-4 può seguire istruzioni complesse in linguaggio naturale e risolvere problemi difficili con precisione.</string>
+    <string name="we_recommend_this_option_explanation">Consigliamo questa opzione come la più conveniente.</string>
+    <string name="about_gpt4_turbo">Con 128k di contesto, conoscenze più recenti e la gamma più ampia di capacità, GPT-4 Turbo è più potente di GPT-4 e offerto a un prezzo più basso.</string>
+    <string name="you_have_tokens">Un messaggio in uscita in questa chat costa %1$s token. Hai %2$s token. Puoi ottenerne altri GRATIS o verificare il prezzo dell\'account premium.</string>
+
+</resources>
