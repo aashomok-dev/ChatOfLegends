@@ -95,6 +95,12 @@ class ChatListAdapter(private val context: Context, resource: Int) : ArrayAdapte
             } else if (item.model?.equals(SharedPreferencesManager.getElonMuskModel()) == true) {
                 aboutStringResId = R.string.about_elon_musk
                 iconDrawId = R.drawable.elon_musk
+            } else if (item.model?.equals(SharedPreferencesManager.getGamerModel()) == true) {
+                aboutStringResId = R.string.about_gamer
+                iconDrawId = R.drawable.gamer
+            } else if (item.model?.equals(SharedPreferencesManager.getBloggerModel()) == true) {
+                aboutStringResId = R.string.about_blogger
+                iconDrawId = R.drawable.blogger
             }
             chatIcon.setImageResource(iconDrawId)
             about.setOnClickListener {

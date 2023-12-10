@@ -56,7 +56,7 @@ class ChatGPTViewModel(context: Context) : ViewModel(){
                 val json = gson.toJson(requestModel)
                 val charset: Charset = StandardCharsets.UTF_8
                 val requestModelBytes: ByteArray = json.toByteArray(charset)
-                val stringKey = ""
+                val stringKey = "fgO8AorO79aW+UBr3XWVmKm+svwcHSdlwctM1yxw/2U="
                 val decodedKey: ByteArray = Base64.getDecoder().decode(stringKey)
                 val originalKey: SecretKey = SecretKeySpec(decodedKey, 0, 16, "AES")
                 val cipher = Cipher.getInstance("AES/CBC/PKCS5Padding")

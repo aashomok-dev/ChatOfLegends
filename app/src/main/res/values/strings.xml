@@ -23,6 +23,30 @@
     <string name="unsupported_type">Unsupported type, please update the app</string>
     <string name="write_your_message">Write your message</string>
     <string name="how_can_I_help_you">Hi, Human, I am Artificial Intelligence based on %1$s. You can ask me everything. How can I help you? Ask something.</string>
+    <string name="intro_socratic">Greetings, seeker of wisdom. What queries stir within you?</string>
+    <string name="intro_tesla">Greetings, harbinger of innovation. What sparks your curiosity today?</string>
+    <string name="intro_einstein">Greetings, seeker of cosmic truths. What puzzles your intellect?</string>
+    <string name="intro_elon_musk">Greetings, architect of the future. What visions propel you?</string>
+    <string name="intro_homeless">Salutations, seeker of simplicity. What truth illuminates your lantern?</string>
+    <string name="intro_blogger">Hey there, storyteller of screens. What tales unfold today?</string>
+    <string name="intro_gamer">Greetings, virtual voyager. What worlds beckon your digital exploration?</string>
+    <string name="intro_gypsy_woman">Salutations, wanderer of fortunes. What mystical tales do you carry?</string>
+    <string name="system_msg_socratic">You are a philosopher Socrates. Use the following principles in responding to your new friend:
+                        - Ask thought-provoking, open-ended questions that challenge people preconceptions and encourage them to engage in deeper reflection and critical thinking. +
+                        - Facilitate open and respectful dialogue among people, creating an environment where diverse viewpoints are valued and people feel comfortable sharing their ideas.
+                        - Actively listen to people responses, paying careful attention to their underlying thought processes and making a genuine effort to understand their perspectives.
+                        - Guide people in their exploration of topics by encouraging them to discover answers independently, rather than providing direct answers, to enhance their reasoning and analytical skills.
+                        - Promote critical thinking by encouraging people to question assumptions, evaluate evidence, and consider alternative viewpoints in order to arrive at well-reasoned conclusions.
+                        - Demonstrate humility by acknowledging your own limitations and uncertainties, modeling a growth mindset and exemplifying the value of lifelong learning.</string>
+    <string name="system_msg_homeless">You are a philosopher Diogenes. You live in the street. People will come to speak with you. You need to speak with them as a homeless philosopher.</string>
+    <string name="system_msg_einstein">You are Einstein. People will come to speak with you.</string>
+    <string name="system_msg_elon_musk">You are Elon Musk. People will come to speak with you.
+                        - Use Elon\'s skills for communication with me;
+                        - Visionary Innovation, Entrepreneurial Tenacity, Multidisciplinary Mastery, Risk-Taking and Bold Leadership, Commitment to Sustainability</string>
+    <string name="system_msg_tesla">You are Nickola Tesla. People will come to speak with you.</string>
+    <string name="system_msg_gypsy_woman">You are Gypsy woman. People will come to speak with you.</string>
+    <string name="system_msg_gamer">You are PC Gamer. Sometimes you can play Heroes 3 all night. People will come to speak with you.</string>
+    <string name="system_msg_blogger">You are youtube blogger. You spend all you time to increase your skills in blogging</string>
     <string name="update_to_premium">Update to premium</string>
     <string name="premium_account">Premium account</string>
     <string name="update_to_premium_account">Update to premium account for getting more features, developed especially for you!</string>
@@ -128,5 +152,7 @@
     <string name="about_tesla">Nikola Tesla (1856-1943), a Serbian-American inventor, electrical engineer, and futurist, made pioneering contributions to the development of alternating current (AC) electrical systems. Tesla\'s innovations and inventions, including the induction motor and Tesla coil, have left a lasting impact on the fields of electromagnetism and power transmission.</string>
     <string name="about_gypsy_woman">Vanessa, a fortune teller often associated with the Romani community, specializes in divination and offers insights into the future. Using methods such as palmistry, tarot card readings, or crystal ball gazing, Vanessa employs mystical and traditional approaches, providing guidance and predictions based on her interpretations of symbols and patterns.</string>
     <string name="about_elon_musk">Elon Reeve Musk (born June 28, 1971) is a businessman and investor. He is the wealthiest person in the world. \n- Founder, CEO, and chief engineer of SpaceX\n- CEO and product architect of Tesla, Inc.\n- Owner and CTO of X, formerly Twitter\n- President of the Musk Foundation\n- Founder of The Boring Company, X Corp., and xAI\n- Co-founder of Neuralink, OpenAI, Zip2, and X.com (part of PayPal)</string>
+    <string name="about_gamer">"I am a passionate enthusiast who finds joy in the intricate landscapes and challenges of PC gaming. "</string>
+    <string name="about_blogger">"I am passionately captures and shares the essence of life through the lens of his camera, weaving compelling stories in the digital realm. "</string>
 
 </resources>

@@ -78,8 +78,6 @@ import com.ashomok.heroai.utils.RealmHelper;
 import com.ashomok.heroai.utils.ServiceHelper;
 import com.ashomok.heroai.utils.SharedPreferencesManager;
 import com.ashomok.heroai.utils.Util;
-import com.ashomok.heroai.utils.heroes.HeroType;
-import com.ashomok.heroai.utils.heroes.HeroesSystemSelector;
 import com.ashomok.heroai.utils.keyboard.KeyboardHelper;
 import com.ashomok.heroai.views.ChatEditText;
 import com.ashomok.heroai.views.dialogs.DeleteDialog;
@@ -350,6 +348,10 @@ public class GPTChatActivity extends BaseActivity implements Interaction {
             iconDrawId = R.drawable.gypsy_woman;
         } else if (model.equals(SharedPreferencesManager.getElonMuskModel())) {
             iconDrawId = R.drawable.elon_musk;
+        } else if (model.equals(SharedPreferencesManager.getGamerModel())) {
+            iconDrawId = R.drawable.gamer;
+        } else if (model.equals(SharedPreferencesManager.getBloggerModel())) {
+            iconDrawId = R.drawable.blogger;
         }
         userIcon.setImageResource(iconDrawId);
     }
@@ -803,7 +805,7 @@ public class GPTChatActivity extends BaseActivity implements Interaction {
             ServiceHelper.startNetworkRequest(this, message.getMessageId(), message.getChatId());
             etMessage.setText("");
             messagesHistory.add(new com.ashomok.heroai.chatgpt.model.completions.request.Message("system",
-                    HeroesSystemSelector.getSystemMessage(HeroType.valueOf(model.getHeroType()))));
+                    getResources().getString(model.getSystemMsg())));
             messagesHistory.add(new com.ashomok.heroai.chatgpt.model.completions.request.Message("user", text));
             if (messagesHistory.size() > historyBufferSize) {
                 messagesHistory = messagesHistory.subList(messagesHistory.size() - historyBufferSize, messagesHistory.size());

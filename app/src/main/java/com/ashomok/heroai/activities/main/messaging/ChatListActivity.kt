@@ -91,22 +91,13 @@ class ChatListActivity : BaseActivity() {
         scAdapter = ChatListAdapter(this, 0)
         listView.adapter = scAdapter
 
-
-        /*
-        * HeroesSystemSelector.getInfoText(HeroType.valueOf(entry.value.heroType))
-        * */
         var chatList = RealmHelper.getInstance().allChats
         SharedPreferencesManager.getModels().entries.stream().forEach { entry ->
-            if (chatList.stream().noneMatch { chat: Chat -> chat.chatId == entry.value.uid }) {
                 val message = MessageCreator.Builder(entry.value, MessageType.RECEIVED_TEXT)
-                    .text(
-                        resources.getString(
-                            R.string.how_can_I_help_you,
-                            entry.value.modelNamePretty
-                        )
-                    ).build()
+                    .text(resources.getString(entry.value.intro))
+                    .build()
                 RealmHelper.getInstance().saveChatIfNotExists(message, entry.value)
-            }
+
         }
         chatList = RealmHelper.getInstance().allChats
         scAdapter.addAll(chatList)

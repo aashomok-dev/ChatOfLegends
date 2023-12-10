@@ -5,8 +5,6 @@ import android.os.Parcelable;
 
 import androidx.annotation.Keep;
 
-import com.ashomok.heroai.utils.heroes.HeroType;
-
 import io.realm.RealmObject;
 import io.realm.annotations.Index;
 import io.realm.annotations.PrimaryKey;
@@ -32,7 +30,9 @@ public class Model extends RealmObject implements Parcelable {
     private int tokenNeeds;
     private boolean isBestChoice;
 
-    private String heroType;
+    private int intro;
+
+    private int systemMsg;
 
     public Model() {
     }
@@ -43,7 +43,8 @@ public class Model extends RealmObject implements Parcelable {
         modelName = in.readString();
         tokenNeeds = Integer.parseInt(in.readString());
         isBestChoice = Boolean.getBoolean(in.readString());
-        heroType = HeroType.valueOf(in.readString()).name();
+        intro = Integer.parseInt(in.readString());
+        systemMsg = Integer.parseInt(in.readString());
     }
 
     public String getModelNamePretty() {
@@ -102,12 +103,20 @@ public class Model extends RealmObject implements Parcelable {
         this.uid = uid;
     }
 
-    public String getHeroType() {
-        return heroType;
+    public int getIntro() {
+        return intro;
     }
 
-    public void setHeroType(String heroType) {
-        this.heroType = heroType;
+    public void setIntro(int intro) {
+        this.intro = intro;
+    }
+
+    public int getSystemMsg() {
+        return systemMsg;
+    }
+
+    public void setSystemMsg(int systemMsg) {
+        this.systemMsg = systemMsg;
     }
 
     @Override
@@ -122,6 +131,7 @@ public class Model extends RealmObject implements Parcelable {
         dest.writeString(modelName);
         dest.writeString(String.valueOf(tokenNeeds));
         dest.writeString(String.valueOf(isBestChoice));
-        dest.writeString(heroType);
+        dest.writeString(String.valueOf(intro));
+        dest.writeString(String.valueOf(systemMsg));
     }
 }
