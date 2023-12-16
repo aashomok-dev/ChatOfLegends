@@ -76,24 +76,24 @@
                 android:value=".activities.main.messaging.ChatListActivity" />
         </activity>
         <activity
-            android:name="com.ashomok.heroai.activities.main.messaging.update_to_premium.UpdateToPremiumActivity"
+            android:name="com.ashomok.chatoflegends.activities.main.messaging.update_to_premium.UpdateToPremiumActivity"
             android:exported="true"
             android:label="@string/update_to_premium"
-            android:parentActivityName="com.ashomok.heroai.activities.main.messaging.ChatListActivity"
+            android:parentActivityName="com.ashomok.chatoflegends.activities.main.messaging.ChatListActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.ashomok.heroai.activities.main.messaging.ChatListActivity" />
+                android:value="com.ashomok.chatoflegends.activities.main.messaging.ChatListActivity" />
         </activity>
         <activity
-            android:name="com.ashomok.heroai.activities.main.messaging.get_more_requests.GetMoreRequestsActivity"
+            android:name="com.ashomok.chatoflegends.activities.main.messaging.get_more_requests.GetMoreRequestsActivity"
             android:exported="true"
             android:label="@string/get_free_tokens"
-            android:parentActivityName="com.ashomok.heroai.activities.main.messaging.ChatListActivity"
+            android:parentActivityName="com.ashomok.chatoflegends.activities.main.messaging.ChatListActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.ashomok.heroai.activities.main.messaging.ChatListActivity" />
+                android:value="com.ashomok.chatoflegends.activities.main.messaging.ChatListActivity" />
         </activity>
 
         <!-- <service -->

@@ -6,7 +6,7 @@
     android:orientation="vertical">
 
 
-    <com.ashomok.heroai.views.backgroundtintlayouts.LinearLayoutWithBackgroundTint
+    <com.ashomok.chatoflegends.views.backgroundtintlayouts.LinearLayoutWithBackgroundTint
         android:id="@+id/container"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -70,6 +70,6 @@
                 app:srcCompat="@drawable/ic_check" />
 
         </LinearLayout>
-    </com.ashomok.heroai.views.backgroundtintlayouts.LinearLayoutWithBackgroundTint>
+    </com.ashomok.chatoflegends.views.backgroundtintlayouts.LinearLayoutWithBackgroundTint>
 
 </LinearLayout>

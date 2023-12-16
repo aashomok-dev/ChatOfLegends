@@ -15,7 +15,7 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
 
     defaultConfig {
-        applicationId 'com.ashomok.heroai'
+        applicationId 'com.ashomok.chatoflegends'
         minSdkVersion 26
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 94
@@ -23,11 +23,11 @@ android {
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
 
-        resValue 'string', 'app_name', 'HeroAI'
-        resValue 'string', 'app_folder_name', 'heroai'
-        resValue 'string', 'app_package_name', 'com.ashomok.heroai'
+        resValue 'string', 'app_name', 'Chat Of Legends'
+        resValue 'string', 'app_folder_name', 'chatoflegend'
+        resValue 'string', 'app_package_name', 'com.ashomok.chatoflegends'
         resValue 'string', 'author', 'by AshomokDev'
-        resValue 'string', 'my_email', 'ashomokdev@gmail.com'
+        resValue 'string', 'my_email', 'aashomok.dev@gmail.com'
 
         //AdMob Ads Units IDs
         resValue 'string', 'banner_unit_id_new_chat', 'ca-app-pub-5221781428763224/1660339447'
@@ -71,7 +71,7 @@ android {
     kapt {
         correctErrorTypes true
     }
-    namespace 'com.ashomok.heroai'
+    namespace 'com.ashomok.chatoflegends'
 }
 androidExtensions {
     experimental = true

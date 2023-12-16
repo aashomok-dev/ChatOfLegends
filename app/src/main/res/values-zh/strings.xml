@@ -42,7 +42,7 @@
     <string name="one_year">一年</string>
     <string name="price_per_month">%1$s每月 %2$s</string>
     <string name="no_ads">无广告</string>
-    <string name="languages_supported_for_heroai">支持30多种语言进行AI聊天</string>
+    <string name="languages_supported_for_chatoflegends">支持30多种语言进行AI聊天</string>
     <string name="fast_responses">快速响应</string>
     <string name="you_are_premium">您已经是高级用户！</string>
     <string name="get_more_for_free">免费获取更多</string>

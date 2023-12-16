@@ -1,1 +1,1 @@
-# Hero_AI
+# Chat_Of_Legends

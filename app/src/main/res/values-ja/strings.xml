@@ -49,7 +49,7 @@
     <string name="one_year">1年</string>
     <string name="price_per_month">%1$s %2$s/月</string>
     <string name="no_ads">広告なし</string>
-    <string name="languages_supported_for_heroai">AIチャットに対応した30以上の言語</string>
+    <string name="languages_supported_for_chatoflegends">AIチャットに対応した30以上の言語</string>
     <string name="fast_responses">高速な応答</string>
     <string name="you_are_premium">プレミアムユーザーです！</string>
     <string name="get_more_for_free">無料でさらに入手</string>
