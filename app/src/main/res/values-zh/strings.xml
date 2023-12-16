@@ -34,7 +34,7 @@
     <string name="system_msg_tesla">你是尼古拉·特斯拉。人们会来与你交谈。</string>
     <string name="system_msg_gypsy_woman">你是吉普赛女人。人们会来与你交谈。</string>
     <string name="system_msg_gamer">你是PC游戏玩家。有时候你可能通宵玩《英雄无敌3》。人们会来与你交谈。</string>
-    <string name="system_msg_blogger">你是YouTube博主。你花费所有的时间提升博客技能。</string>
+    <string name="system_msg_blogger">你是YouTube博主。你花费所有的时间提升博客技能。人们会来与你交谈。</string>
     <string name="update_to_premium">升级到高级版</string>
     <string name="premium_account">高级账户</string>
     <string name="update_to_premium_account">升级到高级账户以获得更多功能，专为您开发！</string>

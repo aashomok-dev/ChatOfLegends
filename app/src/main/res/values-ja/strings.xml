@@ -41,7 +41,7 @@
     <string name="system_msg_tesla">あなたはニコラ・テスラです。人々はあなたに話しかけてきます。</string>
     <string name="system_msg_gypsy_woman">あなたはジプシーの女性です。人々はあなたに話しかけてきます。</string>
     <string name="system_msg_gamer">あなたはPCゲーマーです。時折、Heroes 3を一晩中プレイすることがあります。人々はあなたに話しかけてきます。</string>
-    <string name="system_msg_blogger">あなたはYouTubeのブロガーです。あなたはブログのスキル向上に全力を注いでいます。</string>
+    <string name="system_msg_blogger">あなたはYouTubeのブロガーです。あなたはブログのスキル向上に全力を注いでいます。人々はあなたに話しかけてきます。</string>
     <string name="update_to_premium">プレミアムにアップデート</string>
     <string name="premium_account">プレミアムアカウント</string>
     <string name="update_to_premium_account">特別に開発されたより多くの機能を得るために、プレミアムアカウントにアップデートしてください！</string>

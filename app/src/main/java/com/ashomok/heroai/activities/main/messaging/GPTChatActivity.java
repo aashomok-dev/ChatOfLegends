@@ -77,7 +77,10 @@ import com.ashomok.heroai.utils.NetworkHelper;
 import com.ashomok.heroai.utils.RealmHelper;
 import com.ashomok.heroai.utils.ServiceHelper;
 import com.ashomok.heroai.utils.SharedPreferencesManager;
+import com.ashomok.heroai.utils.StringUtils;
 import com.ashomok.heroai.utils.Util;
+import com.ashomok.heroai.utils.heroes.HeroType;
+import com.ashomok.heroai.utils.heroes.HeroesSystemSelector;
 import com.ashomok.heroai.utils.keyboard.KeyboardHelper;
 import com.ashomok.heroai.views.ChatEditText;
 import com.ashomok.heroai.views.dialogs.DeleteDialog;
@@ -804,15 +807,23 @@ public class GPTChatActivity extends BaseActivity implements Interaction {
         if (null != message) {
             ServiceHelper.startNetworkRequest(this, message.getMessageId(), message.getChatId());
             etMessage.setText("");
-            messagesHistory.add(new com.ashomok.heroai.chatgpt.model.completions.request.Message("system",
-                    getResources().getString(model.getSystemMsg())));
-            messagesHistory.add(new com.ashomok.heroai.chatgpt.model.completions.request.Message("user", text));
+            messagesHistory.add(
+                    new com.ashomok.heroai.chatgpt.model.completions.request.Message(
+                            "system",
+                            getResources().getString(model.getSystemMsg())
+                    )
+            );
+            messagesHistory.add(new com.ashomok.heroai.chatgpt.model.completions.request.Message(
+                    "user", text));
+
             if (messagesHistory.size() > historyBufferSize) {
-                messagesHistory = messagesHistory.subList(messagesHistory.size() - historyBufferSize, messagesHistory.size());
+                messagesHistory = messagesHistory.subList(
+                        messagesHistory.size() - historyBufferSize, messagesHistory.size());
             }
             int todayUsedRequestsCount = SharedPreferencesManager.getTodayUsedRequestsCount();
             if (todayUsedRequestsCount > DAILY_LIMIT) {
-                InfoSnackbarUtil.showWarning(R.string.daily_limit_exited, findViewById(android.R.id.content));
+                InfoSnackbarUtil.showWarning(
+                        R.string.daily_limit_exited, findViewById(android.R.id.content));
             } else {
                 RequestModel requestModel = new RequestModel(model.getModelName(), messagesHistory,
                         temperature, gptTokensAllowed);

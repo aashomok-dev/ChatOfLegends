@@ -7,6 +7,7 @@ import androidx.preference.PreferenceManager;
 
 import com.ashomok.heroai.R;
 import com.ashomok.heroai.model.realms.Model;
+import com.ashomok.heroai.utils.heroes.HeroType;
 
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -36,6 +37,7 @@ public enum SharedPreferencesManager {
         model.setUid("gpt-3-5-homeless");
         model.setModelNamePretty("Homeless");
         model.setModelName("gpt-3.5-turbo");
+        model.setHeroType(HeroType.HOMELESS.name());
         model.setIntro(R.string.intro_homeless);
         model.setSystemMsg(R.string.system_msg_homeless);
         return model;
@@ -48,6 +50,7 @@ public enum SharedPreferencesManager {
         model.setUid("gpt-3-5-socratic");
         model.setModelNamePretty("Socratic philosopher");
         model.setModelName("gpt-3.5-turbo");
+        model.setHeroType(HeroType.SOCRATIC.name());
         model.setIntro(R.string.intro_socratic);
         model.setSystemMsg(R.string.system_msg_socratic);
         return model;
@@ -60,6 +63,7 @@ public enum SharedPreferencesManager {
         model.setUid("gpt-3-5-einstein");
         model.setModelNamePretty("Einstein scientist");
         model.setModelName("gpt-3.5-turbo");
+        model.setHeroType(HeroType.EINSTEIN.name());
         model.setIntro(R.string.intro_einstein);
         model.setSystemMsg(R.string.system_msg_einstein);
         return model;
@@ -72,6 +76,7 @@ public enum SharedPreferencesManager {
         model.setUid("gpt-3-5-tesla");
         model.setModelNamePretty("Tesla scientist");
         model.setModelName("gpt-3.5-turbo");
+        model.setHeroType(HeroType.TESLA.name());
         model.setIntro(R.string.intro_tesla);
         model.setSystemMsg(R.string.system_msg_tesla);
         return model;
@@ -84,6 +89,7 @@ public enum SharedPreferencesManager {
         model.setUid("gpt-3-5-musk");
         model.setModelNamePretty("Elon Musk");
         model.setModelName("gpt-3.5-turbo");
+        model.setHeroType(HeroType.ELON_MUSK.name());
         model.setIntro(R.string.intro_elon_musk);
         model.setSystemMsg(R.string.system_msg_elon_musk);
         return model;
@@ -96,6 +102,7 @@ public enum SharedPreferencesManager {
         model.setUid("gpt-3-5-gamer");
         model.setModelNamePretty("PC Gamer");
         model.setModelName("gpt-3.5-turbo");
+        model.setHeroType(HeroType.GAMER.name());
         model.setIntro(R.string.intro_gamer);
         model.setSystemMsg(R.string.system_msg_gamer);
         return model;
@@ -108,6 +115,7 @@ public enum SharedPreferencesManager {
         model.setUid("gpt-3-5-gypsy_woman");
         model.setModelNamePretty("Gypsy woman");
         model.setModelName("gpt-3.5-turbo");
+        model.setHeroType(HeroType.GYPSY_WOMAN.name());
         model.setIntro(R.string.intro_gypsy_woman);
         model.setSystemMsg(R.string.system_msg_gypsy_woman);
         return model;
@@ -120,6 +128,7 @@ public enum SharedPreferencesManager {
         model.setUid("gpt-3-5-blogger");
         model.setModelNamePretty("Blogger");
         model.setModelName("gpt-3.5-turbo");
+        model.setHeroType(HeroType.BLOGGER.name());
         model.setIntro(R.string.intro_blogger);
         model.setSystemMsg(R.string.system_msg_blogger);
         return model;

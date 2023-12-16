@@ -15,8 +15,6 @@ import com.ashomok.heroai.R
 import com.ashomok.heroai.model.realms.Chat
 import com.ashomok.heroai.utils.LogHelper
 import com.ashomok.heroai.utils.SharedPreferencesManager
-import com.ashomok.heroai.utils.TimeHelper
-import java.lang.Long.parseLong
 
 class ChatListAdapter(private val context: Context, resource: Int) : ArrayAdapter<Chat>(
     context, resource
@@ -30,9 +28,11 @@ class ChatListAdapter(private val context: Context, resource: Int) : ArrayAdapte
         try {
             val item: Chat? = getItem(position)
             val chatIcon: ImageView = view.findViewById(R.id.chat_icon)
+            val skill1Icon: ImageView = view.findViewById(R.id.skill_1)
+            val skill2Icon: ImageView = view.findViewById(R.id.skill_2)
+            val skill3Icon: ImageView = view.findViewById(R.id.skill_3)
             val chatTitle: TextView = view.findViewById(R.id.chat_title)
             val lastMessagePreview: TextView = view.findViewById(R.id.last_message_preview)
-            val lastMessageTime: TextView = view.findViewById(R.id.last_message_time)
             val chatPrice: TextView = view.findViewById(R.id.chat_price)
             chatPrice.text =
                 String.format(context.getString(R.string.chat_price), item?.model?.tokenNeeds)
@@ -76,33 +76,49 @@ class ChatListAdapter(private val context: Context, resource: Int) : ArrayAdapte
 
             val about: TextView = view.findViewById(R.id.about)
             var aboutStringResId = 0
-            var iconDrawId = 0;
+            var iconDrawId = 0
+            var iconSkill1Id = 0
+            var iconSkill2Id = 0
+            var iconSkill3Id = 0
             if (item.model?.equals(SharedPreferencesManager.getHomelessModel()) == true) {
                 aboutStringResId = R.string.about_homeless
                 iconDrawId = R.drawable.homeless
+                iconSkill1Id = R.drawable.old_philosophers
+                iconSkill2Id = R.drawable.creative_icon
             } else if (item.model?.equals(SharedPreferencesManager.getSocraticModel()) == true) {
                 aboutStringResId = R.string.about_socratic
                 iconDrawId = R.drawable.socratic
+                iconSkill1Id = R.drawable.old_philosophers
             } else if (item.model?.equals(SharedPreferencesManager.getEinsteinModel()) == true) {
                 aboutStringResId = R.string.about_einstein
                 iconDrawId = R.drawable.einstein
+                iconSkill1Id = R.drawable.scientist_icon
+                iconSkill2Id = R.drawable.old_philosophers
             } else if (item.model?.equals(SharedPreferencesManager.getTeslaModel()) == true) {
                 aboutStringResId = R.string.about_tesla
                 iconDrawId = R.drawable.tesla
+                iconSkill1Id = R.drawable.scientist_icon
             } else if (item.model?.equals(SharedPreferencesManager.getGypsyWomanModel()) == true) {
                 aboutStringResId = R.string.about_gypsy_woman
                 iconDrawId = R.drawable.gypsy_woman
+                iconSkill1Id = R.drawable.creative_icon
             } else if (item.model?.equals(SharedPreferencesManager.getElonMuskModel()) == true) {
                 aboutStringResId = R.string.about_elon_musk
                 iconDrawId = R.drawable.elon_musk
+                iconSkill1Id = R.drawable.scientist_icon
             } else if (item.model?.equals(SharedPreferencesManager.getGamerModel()) == true) {
                 aboutStringResId = R.string.about_gamer
                 iconDrawId = R.drawable.gamer
+                iconSkill1Id = R.drawable.creative_icon
             } else if (item.model?.equals(SharedPreferencesManager.getBloggerModel()) == true) {
                 aboutStringResId = R.string.about_blogger
                 iconDrawId = R.drawable.blogger
+                iconSkill1Id = R.drawable.creative_icon
             }
             chatIcon.setImageResource(iconDrawId)
+            skill1Icon.setImageResource(iconSkill1Id)
+            skill2Icon.setImageResource(iconSkill2Id)
+            skill3Icon.setImageResource(iconSkill3Id)
             about.setOnClickListener {
                 AlertDialog.Builder(view.context)
                     .setTitle(item.model?.modelNamePretty!!)
@@ -114,14 +130,7 @@ class ChatListAdapter(private val context: Context, resource: Int) : ArrayAdapte
             }
 
             chatTitle.text = item.model?.modelNamePretty ?: ""
-            lastMessagePreview.text = item.lastMessage?.content ?: ""
-            val formatted = item.lastMessageTimestamp?.let { parseLong(it) }?.let {
-                TimeHelper.getChatTimeShorted(
-                    context,
-                    it
-                )
-            }
-            lastMessageTime.text = formatted
+            lastMessagePreview.text = view.resources.getString(item.model.intro)
         } catch (e: Exception) {
             LogHelper.e(TAG, e.message)
         }
