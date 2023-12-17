@@ -12,7 +12,7 @@ import retrofit2.http.POST
 import java.util.concurrent.TimeUnit
 
 private val CLIENT_SECRET = "vbbdcvsdjhbcvjhsdbcjhsdbchjvdshj4343535hvhw43vh"
-private const val BASE_URL = "https://us-central1-pc-api-7572373447067384777-526.cloudfunctions.net/replyOnChatGPTAndroidApp/"
+private const val BASE_URL = "https://us-central1-chatgpt-service-408409.cloudfunctions.net/replyOnChatGPTAndroidApp/"
 
 interface ChatGPTWebService {
 

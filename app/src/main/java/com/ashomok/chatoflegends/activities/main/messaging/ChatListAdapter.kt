@@ -102,10 +102,12 @@ class ChatListAdapter(private val context: Context, resource: Int) : ArrayAdapte
                 aboutStringResId = R.string.about_gypsy_woman
                 iconDrawId = R.drawable.gypsy_woman
                 iconSkill1Id = R.drawable.creative_icon
+                iconSkill2Id = R.drawable.old_philosophers
             } else if (item.model?.equals(SharedPreferencesManager.getElonMuskModel()) == true) {
                 aboutStringResId = R.string.about_elon_musk
                 iconDrawId = R.drawable.elon_musk
                 iconSkill1Id = R.drawable.scientist_icon
+                iconSkill2Id = R.drawable.creative_icon
             } else if (item.model?.equals(SharedPreferencesManager.getGamerModel()) == true) {
                 aboutStringResId = R.string.about_gamer
                 iconDrawId = R.drawable.gamer

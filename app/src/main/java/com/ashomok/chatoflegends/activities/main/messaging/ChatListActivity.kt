@@ -91,7 +91,6 @@ class ChatListActivity : BaseActivity() {
         scAdapter = ChatListAdapter(this, 0)
         listView.adapter = scAdapter
 
-        var chatList = RealmHelper.getInstance().allChats
         SharedPreferencesManager.getModels().entries.stream().forEach { entry ->
                 val message = MessageCreator.Builder(entry.value, MessageType.RECEIVED_TEXT)
                     .text(resources.getString(entry.value.intro))
@@ -99,7 +98,8 @@ class ChatListActivity : BaseActivity() {
                 RealmHelper.getInstance().saveChatIfNotExists(message, entry.value)
 
         }
-        chatList = RealmHelper.getInstance().allChats
+
+        val chatList = RealmHelper.getInstance().allChats.sortedBy { m -> m.model.modelNamePretty }.toList()
         scAdapter.addAll(chatList)
         listView.onItemClickListener =
             OnItemClickListener { parent: AdapterView<*>, _: View?, position: Int, arg3: Long ->
