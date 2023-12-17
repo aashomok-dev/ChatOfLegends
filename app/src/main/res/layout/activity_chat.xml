@@ -6,9 +6,9 @@
     android:id="@+id/drawer_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/library_background"
+    android:background="@drawable/background"
     android:fitsSystemWindows="true"
-    tools:context="com.ashomok.heroai.activities.main.messaging.GPTChatActivity">
+    tools:context="com.ashomok.chatoflegends.activities.main.messaging.GPTChatActivity">
 <!--        tools:openDrawer="start">-->
 
     <RelativeLayout
@@ -69,7 +69,7 @@
                     app:srcCompat="@drawable/ic_insert_emoticon_black" />
 
 
-                <com.ashomok.heroai.views.ChatEditText
+                <com.ashomok.chatoflegends.views.ChatEditText
                     android:id="@+id/et_message"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
@@ -126,7 +126,7 @@
             </LinearLayout>
 
 
-            <com.ashomok.heroai.views.ChatRecyclerView
+            <com.ashomok.chatoflegends.views.ChatRecyclerView
                 android:layout_above="@+id/typing_layout_container"
                 android:id="@+id/recycler_chat"
                 android:layout_width="match_parent"

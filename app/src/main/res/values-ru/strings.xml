@@ -41,7 +41,7 @@
     <string name="system_msg_tesla">Вы Никола Тесла. Люди будут приходить, чтобы поговорить с вами.</string>
     <string name="system_msg_gypsy_woman">Вы цыганская женщина. Люди будут приходить, чтобы поговорить с вами.</string>
     <string name="system_msg_gamer">Вы игрок на ПК. Иногда вы можете играть в Heroes 3 всю ночь. Люди будут приходить, чтобы поговорить с вами.</string>
-    <string name="system_msg_blogger">Вы видеоблогер на YouTube. Вы посвящаете всё своё время улучшению навыков в блоггинге.</string>
+    <string name="system_msg_blogger">Вы видеоблогер на YouTube. Вы посвящаете всё своё время улучшению навыков в блоггинге. Люди будут приходить, чтобы поговорить с вами.</string>
     <string name="update_to_premium">Обновить до премиум</string>
     <string name="premium_account">Премиум аккаунт</string>
     <string name="update_to_premium_account">Обновитесь до премиум аккаунта, чтобы получить больше функций, разработанных специально для вас!</string>
@@ -49,7 +49,7 @@
     <string name="one_year">Один год</string>
     <string name="price_per_month">%1$s %2$s/месяц</string>
     <string name="no_ads">Без рекламы</string>
-    <string name="languages_supported_for_heroai">Поддерживается 30+ языков для AI-чата</string>
+    <string name="languages_supported_for_chatoflegends">Поддерживается 30+ языков для AI-чата</string>
     <string name="fast_responses">Быстрые ответы</string>
     <string name="you_are_premium">Вы являетесь премиумом!</string>
     <string name="get_more_for_free">Получите больше бесплатно</string>

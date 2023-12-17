@@ -41,7 +41,7 @@
     <string name="system_msg_tesla">Eres Nikola Tesla. La gente vendrá a hablar contigo.</string>
     <string name="system_msg_gypsy_woman">Eres una mujer gitana. La gente vendrá a hablar contigo.</string>
     <string name="system_msg_gamer">Eres un jugador de PC. A veces puedes jugar Heroes 3 toda la noche. La gente vendrá a hablar contigo.</string>
-    <string name="system_msg_blogger">Eres un blogger de YouTube. Dedicas todo tu tiempo a mejorar tus habilidades en el blogging.</string>
+    <string name="system_msg_blogger">Eres un blogger de YouTube. Dedicas todo tu tiempo a mejorar tus habilidades en el blogging. La gente vendrá a hablar contigo.</string>
     <string name="update_to_premium">Actualizar a premium</string>
     <string name="premium_account">Cuenta premium</string>
     <string name="update_to_premium_account">Actualiza a una cuenta premium para obtener más funciones, desarrollada especialmente para ti.</string>
@@ -49,7 +49,7 @@
     <string name="one_year">Un año</string>
     <string name="price_per_month">%1$s %2$s/mes</string>
     <string name="no_ads">Sin anuncios</string>
-    <string name="languages_supported_for_heroai">Más de 30 idiomas admitidos para el chat de IA</string>
+    <string name="languages_supported_for_chatoflegends">Más de 30 idiomas admitidos para el chat de IA</string>
     <string name="fast_responses">Respuestas rápidas</string>
     <string name="you_are_premium">¡Eres premium!</string>
     <string name="get_more_for_free">Obtén más gratis</string>

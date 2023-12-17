@@ -41,7 +41,7 @@
     <string name="system_msg_tesla">あなたはニコラ・テスラです。人々はあなたに話しかけてきます。</string>
     <string name="system_msg_gypsy_woman">あなたはジプシーの女性です。人々はあなたに話しかけてきます。</string>
     <string name="system_msg_gamer">あなたはPCゲーマーです。時折、Heroes 3を一晩中プレイすることがあります。人々はあなたに話しかけてきます。</string>
-    <string name="system_msg_blogger">あなたはYouTubeのブロガーです。あなたはブログのスキル向上に全力を注いでいます。</string>
+    <string name="system_msg_blogger">あなたはYouTubeのブロガーです。あなたはブログのスキル向上に全力を注いでいます。人々はあなたに話しかけてきます。</string>
     <string name="update_to_premium">プレミアムにアップデート</string>
     <string name="premium_account">プレミアムアカウント</string>
     <string name="update_to_premium_account">特別に開発されたより多くの機能を得るために、プレミアムアカウントにアップデートしてください！</string>
@@ -49,7 +49,7 @@
     <string name="one_year">1年</string>
     <string name="price_per_month">%1$s %2$s/月</string>
     <string name="no_ads">広告なし</string>
-    <string name="languages_supported_for_heroai">AIチャットに対応した30以上の言語</string>
+    <string name="languages_supported_for_chatoflegends">AIチャットに対応した30以上の言語</string>
     <string name="fast_responses">高速な応答</string>
     <string name="you_are_premium">プレミアムユーザーです！</string>
     <string name="get_more_for_free">無料でさらに入手</string>

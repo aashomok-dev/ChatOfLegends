@@ -8,7 +8,7 @@
     android:paddingLeft="6dp">
 
 
-    <com.ashomok.heroai.views.backgroundtintlayouts.LinearLayoutWithBackgroundTint
+    <com.ashomok.chatoflegends.views.backgroundtintlayouts.LinearLayoutWithBackgroundTint
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="left"
@@ -37,5 +37,5 @@
             android:layout_marginLeft="8dp"
             android:layout_marginRight="8dp"
             android:text="05:08" />
-    </com.ashomok.heroai.views.backgroundtintlayouts.LinearLayoutWithBackgroundTint>
+    </com.ashomok.chatoflegends.views.backgroundtintlayouts.LinearLayoutWithBackgroundTint>
 </FrameLayout>
