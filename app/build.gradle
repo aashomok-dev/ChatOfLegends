@@ -18,8 +18,8 @@ android {
         applicationId 'com.ashomok.chatoflegends'
         minSdkVersion 26
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 94
-        versionName '2.94'
+        versionCode 95
+        versionName '2.95'
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
 
@@ -38,8 +38,8 @@ android {
 
         //AdMob Ads Enable/Disable
         resValue 'bool', 'is_chat_ad_enabled', 'false' //forbidden by admob policy
-        resValue 'bool', 'is_chat_list_ad_enabled', 'false'
-        resValue 'bool', 'is_interstitial_ad_enabled', 'false'
+        resValue 'bool', 'is_chat_list_ad_enabled', 'true'
+        resValue 'bool', 'is_interstitial_ad_enabled', 'true'
     }
 
     buildTypes {

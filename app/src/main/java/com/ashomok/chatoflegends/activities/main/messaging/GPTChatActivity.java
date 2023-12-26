@@ -197,7 +197,6 @@ public class GPTChatActivity extends BaseActivity implements Interaction {
         Bundle extras = getIntent().getExtras();
         if (extras != null) {
             model = getIntent().getParcelableExtra("user");
-
         }
         receiverUid = model.getUid();
         initViews();
