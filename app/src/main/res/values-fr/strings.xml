@@ -140,5 +140,19 @@
     <string name="we_recommend_this_option_explanation">Nous recommandons cette option comme la plus rentable.</string>
     <string name="about_gpt4_turbo">Avec un contexte de 128 000, des connaissances plus récentes et le plus large éventail de capacités, GPT-4 Turbo est plus puissant que GPT-4 et est proposé à un prix inférieur.</string>
     <string name="you_have_tokens">1 message sortant dans cette discussion coûte %1$s jetons. Vous avez %2$s jetons. Vous pouvez en obtenir plus GRATUITEMENT ou consulter le prix du compte premium.</string>
+    <string name="about_homeless">Diogène de Sinope, un philosophe cynique de la Grèce antique, a rejeté les normes sociales, adopté un mode de vie ascétique et cherché célèbrement un homme honnête avec une lanterne en plein jour. Son héritage perdure à travers des anecdotes sur son comportement non conventionnel et des enseignements qui remettent en question la pensée conventionnelle sur la vertu et le matérialisme. Il est né à Sinope, une colonie ionienne sur la côte de la mer Noire d\'Anatolie, en 412 ou 404 av. J.-C., et est décédé à Corinthe en 323 av. J.-C.</string>
+    <string name="about_socratic">Socrate (469–399 av. J.-C.), une figure fondamentale de la philosophie occidentale, était un philosophe grec antique connu pour sa méthode socratique, une forme de dialogue argumentatif coopératif visant à stimuler la pensée critique. Bien qu\'il n\'ait jamais écrit de textes philosophiques, ses idées et enseignements ont été consignés par son élève Platon, influençant profondément le développement de la philosophie éthique et épistémologique.</string>
+    <string name="about_einstein">Albert Einstein (1879–1955) était un physicien théoricien dont le travail révolutionnaire a transformé notre compréhension de l\'univers. Principalement connu pour sa théorie de la relativité, les contributions d\'Einstein à la physique lui ont valu le prix Nobel, et son héritage s\'étend au-delà de la science, influençant la philosophie, l\'éducation et le discours culturel à travers le monde.</string>
+    <string name="about_tesla">Nikola Tesla (1856–1943), un inventeur serbo-américain, ingénieur électricien et futuriste, a apporté des contributions pionnières au développement des systèmes électriques en courant alternatif (CA). Les innovations et inventions de Tesla, y compris le moteur à induction et la bobine Tesla, ont laissé une empreinte durable dans les domaines de l\'électromagnétisme et de la transmission d\'énergie.</string>
+    <string name="about_gypsy_woman">Vanessa, une diseuse de bonne aventure souvent associée à la communauté rom, se spécialise dans la divination et offre des aperçus de l\'avenir. Utilisant des méthodes telles que la chiromancie, la lecture des cartes de tarot ou la contemplation d\'une boule de cristal, Vanessa emploie des approches mystiques et traditionnelles, fournissant des conseils et des prédictions basés sur ses interprétations de symboles et de motifs.</string>
+    <string name="about_elon_musk">Elon Reeve Musk (né le 28 juin 1971) est un homme d\'affaires et investisseur. Il est la personne la plus riche du monde.
+- Fondateur, PDG et ingénieur en chef de SpaceX
+- PDG et architecte de produits de Tesla, Inc.
+- Propriétaire et CTO de X, anciennement Twitter
+- Président de la Fondation Musk
+- Fondateur de The Boring Company, X Corp. et xAI
+- Co-fondateur de Neuralink, OpenAI, Zip2 et X.com (partie de PayPal)</string>
+    <string name="about_gamer">"Je suis un passionné qui trouve de la joie dans les paysages complexes et les défis du jeu sur PC."</string>
+    <string name="about_blogger">"Je capture passionnément et partage l'essence de la vie à travers l'objectif de mon appareil photo, tissant des histoires captivantes dans le monde numérique."</string>
 
 </resources>

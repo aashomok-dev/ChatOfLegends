@@ -140,5 +140,19 @@
     <string name="we_recommend_this_option_explanation">Recomendamos esta opção como a mais econômica.</string>
     <string name="about_gpt4_turbo">Com 128k de contexto, conhecimento mais recente e o conjunto mais amplo de capacidades, o GPT-4 Turbo é mais poderoso que o GPT-4 e oferecido a um preço mais baixo.</string>
     <string name="you_have_tokens">Uma mensagem de saída nesta conversa custa %1$s tokens. Você tem %2$s tokens. Você pode obter mais GRÁTIS ou verificar o preço da conta premium.</string>
+    <string name="about_homeless">Diógenes de Sinope, um filósofo cínico na Grécia antiga, rejeitou normas sociais, adotou um estilo de vida ascético e famosamente procurou um homem honesto com uma lanterna em plena luz do dia. Seu legado perdura através de anedotas de seu comportamento não convencional e ensinamentos que desafiam o pensamento convencional sobre virtude e materialismo. Ele nasceu em Sinope, uma colônia jônica na costa do Mar Negro, na Anatólia, em 412 ou 404 a.C., e morreu em Corinto, em 323 a.C.</string>
+    <string name="about_socratic">Sócrates (469–399 a.C.), uma figura fundamental na filosofia ocidental, foi um antigo filósofo grego conhecido pelo seu método socrático - uma forma de diálogo argumentativo cooperativo para estimular o pensamento crítico. Apesar de nunca ter escrito textos filosóficos, suas ideias e ensinamentos foram registrados por seu aluno Platão, influenciando profundamente o desenvolvimento da filosofia ética e epistemológica.</string>
+    <string name="about_einstein">Albert Einstein (1879–1955) foi um físico teórico cujo trabalho inovador revolucionou nossa compreensão do universo. Mais conhecido por sua teoria da relatividade, as contribuições de Einstein para a física lhe renderam o Prêmio Nobel, e seu legado se estende além da ciência, influenciando a filosofia, a educação e o discurso cultural em todo o mundo.</string>
+    <string name="about_tesla">Nikola Tesla (1856–1943), um inventor sérvio-americano, engenheiro elétrico e futurista, fez contribuições pioneiras para o desenvolvimento de sistemas elétricos de corrente alternada (CA). As inovações e invenções de Tesla, incluindo o motor de indução e a bobina Tesla, deixaram um impacto duradouro nos campos do eletromagnetismo e transmissão de energia.</string>
+    <string name="about_gypsy_woman">Vanessa, uma cartomante frequentemente associada à comunidade cigana, especializa-se em adivinhação e oferece insights sobre o futuro. Usando métodos como quiromancia, leitura de cartas de tarô ou contemplação de uma bola de cristal, Vanessa emprega abordagens místicas e tradicionais, fornecendo orientação e previsões com base em suas interpretações de símbolos e padrões.</string>
+    <string name="about_elon_musk">Elon Reeve Musk (nascido em 28 de junho de 1971) é um empresário e investidor. Ele é a pessoa mais rica do mundo.
+- Fundador, CEO e engenheiro-chefe da SpaceX
+- CEO e arquiteto de produtos da Tesla, Inc.
+- Proprietário e CTO da X, anteriormente Twitter
+- Presidente da Fundação Musk
+- Fundador da The Boring Company, X Corp. e xAI
+- Cofundador da Neuralink, OpenAI, Zip2 e X.com (parte do PayPal)</string>
+    <string name="about_gamer">"Eu sou um entusiasta apaixonado que encontra alegria nas paisagens intricadas e desafios dos jogos de PC."</string>
+    <string name="about_blogger">"Eu capturo apaixonadamente e compartilho a essência da vida através da lente da minha câmera, tecendo histórias envolventes no mundo digital."</string>
 
 </resources>

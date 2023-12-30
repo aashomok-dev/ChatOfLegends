@@ -140,5 +140,19 @@
     <string name="we_recommend_this_option_explanation">Polecamy tę opcję jako najbardziej opłacalną.</string>
     <string name="about_gpt4_turbo">Z kontekstem 128k, świeższą wiedzą i najszerszym zakresem możliwości, GPT-4 Turbo jest potężniejszy niż GPT-4 i oferowany w niższej cenie.</string>
     <string name="you_have_tokens">1 wychodząca wiadomość w tej rozmowie kosztuje %1$s żetonów. Masz %2$s żetonów. Możesz zdobyć ich więcej ZA DARMO lub sprawdzić cenę konta premium.</string>
+    <string name="about_homeless">Diogenes z Sinopy, filozof cynicki w starożytnej Grecji, odrzucał normy społeczne, przyjął ascetyczny styl życia i słynnie poszukiwał uczciwego człowieka latarnią w pełnym świetle dnia. Jego dziedzictwo trwa dzięki anegdotom o jego niekonwencjonalnym zachowaniu i naukom, które kwestionują konwencjonalne myślenie o cnotach i materializmie. Urodził się w Sinope, kolonii jońskiej na wybrzeżu Morza Czarnego w Anatolii około 412 lub 404 r. p.n.e. i zmarł w Koryncie w 323 r. p.n.e.</string>
+    <string name="about_socratic">Sokrates (469–399 p.n.e.), postać fundamentalna w filozofii zachodniej, był starożytnym greckim filozofem znającym się na swojej sokościennej metodzie - formie dialogu argumentacyjnego mającej pobudzać myślenie krytyczne. Pomimo braku napisanych tekstów filozoficznych, jego idee i nauczania zostały zarejestrowane przez ucznia Platona, znacząco wpływając na rozwój filozofii etycznej i epistemologicznej.</string>
+    <string name="about_einstein">Albert Einstein (1879–1955) był teoretykiem fizyki, którego przełomowa praca zrewolucjonizowała nasze zrozumienie wszechświata. Najbardziej znany ze swojej teorii względności, wkład Einsteina w fizykę przyniósł mu Nagrodę Nobla, a jego dziedzictwo sięga poza naukę, wpływając na filozofię, edukację i dyskurs kulturowy na całym świecie.</string>
+    <string name="about_tesla">Nikola Tesla (1856–1943), serbsko-amerykański wynalazca, inżynier elektryk i futurysta, dokonał pionierskich wkładów w rozwój systemów elektrycznych prądu zmiennego (AC). Innowacje i wynalazki Tesli, w tym silnik indukcyjny i cewka Tesli, mają trwały wpływ na dziedziny elektromagnetyzmu i transmisji energii.</string>
+    <string name="about_gypsy_woman">Vanessa, wróżbitka często kojarzona z społecznością Romów, specjalizuje się w wróżeniu i oferuje wglądy w przyszłość. Korzystając z metod takich jak chiromancja, czytanie kart tarota czy patrzenie w kryształową kule, Vanessa stosuje podejścia mistyczne i tradycyjne, udzielając wskazówek i przewidywań opartych na swoich interpretacjach symboli i wzorów.</string>
+    <string name="about_elon_musk">Elon Reeve Musk (ur. 28 czerwca 1971 r.) to biznesmen i inwestor. Jest najbogatszą osobą na świecie.
+- Założyciel, CEO i główny inżynier SpaceX
+- CEO i architekt produktu Tesla, Inc.
+- Właściciel i CTO X, wcześniej Twitter
+- Prezes Fundacji Muska
+- Założyciel The Boring Company, X Corp. i xAI
+- Współzałożyciel Neuralink, OpenAI, Zip2 i X.com (część PayPal)</string>
+    <string name="about_gamer">"Jestem zapalonym entuzjastą, który znajduje radość w złożonych krajobrazach i wyzwaniach związanych z grami na PC."</string>
+    <string name="about_blogger">"Pasjonująco uchwycam i dzielę się istotą życia przez obiektyw mojego aparatu, snując fascynujące opowieści w cyfrowym świecie."</string>
 
 </resources>

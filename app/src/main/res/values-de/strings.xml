@@ -140,5 +140,18 @@
     <string name="we_recommend_this_option_explanation">Wir empfehlen diese Option als die kostengünstigste.</string>
     <string name="about_gpt4_turbo">Mit 128k Kontext, aktuellem Wissen und dem breitesten Spektrum an Fähigkeiten ist GPT-4 Turbo leistungsfähiger als GPT-4 und wird zu einem niedrigeren Preis angeboten.</string>
     <string name="you_have_tokens">Eine ausgehende Nachricht in diesem Chat kostet %1$s Tokens. Sie haben %2$s Tokens. Sie können mehr KOSTENLOS erhalten oder den Preis für ein Premiumkonto überprüfen.</string>
-
+    <string name="about_homeless">Diogenes von Sinope, ein zynischer Philosoph im antiken Griechenland, lehnte gesellschaftliche Normen ab, umarmte einen asketischen Lebensstil und suchte berühmt nach einem ehrlichen Menschen mit einer Laterne bei Tageslicht. Sein Erbe lebt weiter durch Anekdoten über sein unkonventionelles Verhalten und Lehren, die konventionelles Denken über Tugend und Materialismus herausfordern. Er wurde in Sinope, einer ionischen Kolonie an der Schwarzmeerküste von Anatolien, im Jahr 412 oder 404 v. Chr. geboren und starb 323 v. Chr. in Korinth.</string>
+    <string name="about_socratic">Sokrates (469-399 v. Chr.), eine grundlegende Figur in der westlichen Philosophie, war ein antiker griechischer Philosoph, bekannt für seine sokratische Methode - eine Form der kooperativen argumentativen Dialogführung zur Anregung des kritischen Denkens. Obwohl er nie philosophische Texte verfasst hat, wurden seine Ideen und Lehren von seinem Schüler Platon aufgezeichnet und beeinflussten nachhaltig die Entwicklung der ethischen und epistemologischen Philosophie.</string>
+    <string name="about_einstein">Albert Einstein (1879-1955) war ein theoretischer Physiker, dessen bahnbrechende Arbeit unser Verständnis des Universums revolutionierte. Am bekanntesten ist er für seine Relativitätstheorie, Einsteins Beiträge zur Physik brachten ihm den Nobelpreis ein, und sein Erbe erstreckt sich über die Wissenschaft hinaus und beeinflusst weltweit Philosophie, Bildung und kulturellen Diskurs.</string>
+    <string name="about_tesla">Nikola Tesla (1856-1943), ein serbisch-amerikanischer Erfinder, Elektroingenieur und Futurist, leistete bahnbrechende Beiträge zur Entwicklung von Wechselstrom (AC)-Elektrosystemen. Teslas Innovationen und Erfindungen, darunter der Induktionsmotor und die Tesla-Spule, haben einen bleibenden Einfluss auf die Bereiche Elektromagnetismus und Energieübertragung hinterlassen.</string>
+    <string name="about_gypsy_woman">Vanessa, eine Wahrsagerin, die oft mit der Romani-Gemeinschaft in Verbindung gebracht wird, hat sich auf Wahrsagung spezialisiert und bietet Einblicke in die Zukunft. Mit Methoden wie Handlesen, Tarotkartenlesen oder Kristallkugel-Betrachtung verwendet Vanessa mystische und traditionelle Ansätze und bietet Orientierung und Vorhersagen basierend auf ihren Interpretationen von Symbolen und Mustern.</string>
+    <string name="about_elon_musk">Elon Reeve Musk (* 28. Juni 1971) ist ein Geschäftsmann und Investor. Er ist die reichste Person der Welt.
+- Gründer, CEO und Chefingenieur von SpaceX
+- CEO und Produktarchitekt von Tesla, Inc.
+- Eigentümer und CTO von X, ehemals Twitter
+- Präsident der Musk Foundation
+- Gründer von The Boring Company, X Corp. und xAI
+- Mitbegründer von Neuralink, OpenAI, Zip2 und X.com (Teil von PayPal)</string>
+    <string name="about_gamer">"Ich bin ein leidenschaftlicher Enthusiast, der Freude an den komplexen Landschaften und Herausforderungen des PC-Spielens findet."</string>
+    <string name="about_blogger">"Ich erfasse leidenschaftlich die Essenz des Lebens durch die Linse meiner Kamera und webt fesselnde Geschichten im digitalen Raum."</string>
 </resources>

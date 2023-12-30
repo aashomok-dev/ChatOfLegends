@@ -18,8 +18,8 @@ android {
         applicationId 'com.ashomok.chatoflegends'
         minSdkVersion 26
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 95
-        versionName '2.95'
+        versionCode 96
+        versionName '2.96'
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
 
@@ -30,11 +30,11 @@ android {
         resValue 'string', 'my_email', 'aashomok.dev@gmail.com'
 
         //AdMob Ads Units IDs
-        resValue 'string', 'banner_unit_id_new_chat', 'ca-app-pub-5221781428763224/1660339447'
-        resValue 'string', 'interstitial_ad_id', 'ca-app-pub-5221781428763224/2409727607'
-        resValue 'string', 'admob_app_id', 'ca-app-pub-5221781428763224~4478074474'
-        resValue 'string', 'rewarded_ad_id', 'ca-app-pub-5221781428763224/3535218388'
-        resValue 'string', 'rewarded_interstitial_ad_id', 'ca-app-pub-5221781428763224/4885660476'
+        resValue 'string', 'admob_app_id', 'ca-app-pub-2456008566056766~7995532759'
+        resValue 'string', 'banner_unit_id_new_chat', 'ca-app-pub-2456008566056766/1505064450'
+        resValue 'string', 'interstitial_ad_id', 'ca-app-pub-2456008566056766/8628095752'
+        resValue 'string', 'rewarded_ad_id', 'ca-app-pub-2456008566056766/9147750759'
+        resValue 'string', 'rewarded_interstitial_ad_id', 'ca-app-pub-2456008566056766/7847111529'
 
         //AdMob Ads Enable/Disable
         resValue 'bool', 'is_chat_ad_enabled', 'false' //forbidden by admob policy
