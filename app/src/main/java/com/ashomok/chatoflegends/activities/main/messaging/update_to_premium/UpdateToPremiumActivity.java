@@ -104,7 +104,8 @@ public class UpdateToPremiumActivity extends AppCompatActivity {
     public void initPremiumYearRow(ProductDetails item) {
         View oneYearLayout = findViewById(R.id.one_year_subscription);
         TextView oneYearPrice = findViewById(R.id.one_year_price);
-        if (!Util.getUserCountry(this).equals("br")) {
+        String country = Util.getUserCountry(this);
+        if (country != null && !country.equals("br")) {
             oneYearPrice.setText(item.getSubscriptionOfferDetails()
                     .get(0).getPricingPhases().getPricingPhaseList()
                     .get(0).getFormattedPrice());

@@ -18,8 +18,8 @@ android {
         applicationId 'com.ashomok.chatoflegends'
         minSdkVersion 26
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 96
-        versionName '2.96'
+        versionCode 98
+        versionName '2.98'
         multiDexEnabled true
         vectorDrawables.useSupportLibrary = true
 
