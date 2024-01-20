@@ -154,5 +154,13 @@
 - Сооснователь Neuralink, OpenAI, Zip2 и X.com (часть PayPal)</string>
     <string name="about_gamer">"Я страстный энтузиаст, находящий радость в сложных пейзажах и вызовах игр на ПК."</string>
     <string name="about_blogger">"Я страстно запечатлеваю и делюсь сущностью жизни через объектив своей камеры, создавая увлекательные истории в цифровом мире."</string>
+    <string name="nicola_tesla">Никола Тесла</string>
+    <string name="elon_musk">Илон Маск</string>
+    <string name="homeless">Бездомный</string>
+    <string name="socratic">Сократий</string>
+    <string name="albert_einstein">Альберт Эйнштейн</string>
+    <string name="pc_gamer">Игрок на ПК</string>
+    <string name="gypsy_woman">Цыганская женщина</string>
+    <string name="blogger">Блоггер</string>
 
 </resources>

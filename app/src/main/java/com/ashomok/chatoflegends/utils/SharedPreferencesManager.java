@@ -35,7 +35,7 @@ public enum SharedPreferencesManager {
         model.setBestChoice(false);
         model.setTokenNeeds(1);
         model.setUid("gpt-3-5-homeless");
-        model.setModelNamePretty("Homeless");
+        model.setModelNamePretty(R.string.homeless);
         model.setModelName("gpt-3.5-turbo");
         model.setHeroType(HeroType.HOMELESS.name());
         model.setIntro(R.string.intro_homeless);
@@ -48,7 +48,7 @@ public enum SharedPreferencesManager {
         model.setBestChoice(false);
         model.setTokenNeeds(1);
         model.setUid("gpt-3-5-socratic");
-        model.setModelNamePretty("Socratic philosopher");
+        model.setModelNamePretty(R.string.socratic);
         model.setModelName("gpt-3.5-turbo");
         model.setHeroType(HeroType.SOCRATIC.name());
         model.setIntro(R.string.intro_socratic);
@@ -61,7 +61,7 @@ public enum SharedPreferencesManager {
         model.setBestChoice(false);
         model.setTokenNeeds(1);
         model.setUid("gpt-3-5-einstein");
-        model.setModelNamePretty("Einstein scientist");
+        model.setModelNamePretty(R.string.albert_einstein);
         model.setModelName("gpt-3.5-turbo");
         model.setHeroType(HeroType.EINSTEIN.name());
         model.setIntro(R.string.intro_einstein);
@@ -74,7 +74,7 @@ public enum SharedPreferencesManager {
         model.setBestChoice(false);
         model.setTokenNeeds(1);
         model.setUid("gpt-3-5-tesla");
-        model.setModelNamePretty("Tesla scientist");
+        model.setModelNamePretty(R.string.nicola_tesla);
         model.setModelName("gpt-3.5-turbo");
         model.setHeroType(HeroType.TESLA.name());
         model.setIntro(R.string.intro_tesla);
@@ -87,7 +87,7 @@ public enum SharedPreferencesManager {
         model.setBestChoice(false);
         model.setTokenNeeds(1);
         model.setUid("gpt-3-5-musk");
-        model.setModelNamePretty("Elon Musk");
+        model.setModelNamePretty(R.string.elon_musk);
         model.setModelName("gpt-3.5-turbo");
         model.setHeroType(HeroType.ELON_MUSK.name());
         model.setIntro(R.string.intro_elon_musk);
@@ -100,7 +100,7 @@ public enum SharedPreferencesManager {
         model.setBestChoice(false);
         model.setTokenNeeds(1);
         model.setUid("gpt-3-5-gamer");
-        model.setModelNamePretty("PC Gamer");
+        model.setModelNamePretty(R.string.pc_gamer);
         model.setModelName("gpt-3.5-turbo");
         model.setHeroType(HeroType.GAMER.name());
         model.setIntro(R.string.intro_gamer);
@@ -113,7 +113,7 @@ public enum SharedPreferencesManager {
         model.setBestChoice(false);
         model.setTokenNeeds(1);
         model.setUid("gpt-3-5-gypsy_woman");
-        model.setModelNamePretty("Gypsy woman");
+        model.setModelNamePretty(R.string.gypsy_woman);
         model.setModelName("gpt-3.5-turbo");
         model.setHeroType(HeroType.GYPSY_WOMAN.name());
         model.setIntro(R.string.intro_gypsy_woman);
@@ -126,7 +126,7 @@ public enum SharedPreferencesManager {
         model.setBestChoice(false);
         model.setTokenNeeds(1);
         model.setUid("gpt-3-5-blogger");
-        model.setModelNamePretty("Blogger");
+        model.setModelNamePretty(R.string.blogger);
         model.setModelName("gpt-3.5-turbo");
         model.setHeroType(HeroType.BLOGGER.name());
         model.setIntro(R.string.intro_blogger);

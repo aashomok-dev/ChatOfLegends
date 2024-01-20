@@ -131,7 +131,7 @@ class ChatListAdapter(private val context: Context, resource: Int) : ArrayAdapte
                     .show()
             }
 
-            chatTitle.text = item.model?.modelNamePretty ?: ""
+            chatTitle.text = view.resources.getString(item.model.modelNamePretty)
             lastMessagePreview.text = view.resources.getString(item.model.intro)
         } catch (e: Exception) {
             LogHelper.e(TAG, e.message)

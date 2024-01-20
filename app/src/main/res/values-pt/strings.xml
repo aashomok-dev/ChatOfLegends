@@ -154,5 +154,13 @@
 - Cofundador da Neuralink, OpenAI, Zip2 e X.com (parte do PayPal)</string>
     <string name="about_gamer">"Eu sou um entusiasta apaixonado que encontra alegria nas paisagens intricadas e desafios dos jogos de PC."</string>
     <string name="about_blogger">"Eu capturo apaixonadamente e compartilho a essência da vida através da lente da minha câmera, tecendo histórias envolventes no mundo digital."</string>
+    <string name="nicola_tesla">Nikola Tesla</string>
+    <string name="elon_musk">Elon Musk</string>
+    <string name="homeless">Sem-teto</string>
+    <string name="socratic">Socrático</string>
+    <string name="albert_einstein">Albert Einstein</string>
+    <string name="pc_gamer">Jogador de PC</string>
+    <string name="gypsy_woman">Mulher cigana</string>
+    <string name="blogger">Blogger</string>
 
 </resources>

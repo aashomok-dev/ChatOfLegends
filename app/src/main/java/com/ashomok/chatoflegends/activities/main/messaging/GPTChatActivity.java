@@ -647,7 +647,8 @@ public class GPTChatActivity extends BaseActivity implements Interaction {
         if (isBroadcast) {
             updateToolbarTvsVisibility(false);
         }
-        userNameToolbarChatActivity.setText(model.getProperUserName());
+        userNameToolbarChatActivity.setText(
+                getResources().getString(model.getModelNamePretty()));
     }
 
     @Override

@@ -23,6 +23,14 @@
     <string name="unsupported_type">Unsupported type, please update the app</string>
     <string name="write_your_message">Write your message</string>
     <string name="how_can_I_help_you">Hi, Human, I am Artificial Intelligence based on %1$s. You can ask me everything. How can I help you? Ask something.</string>
+    <string name="nicola_tesla">Nicola Tesla</string>
+    <string name="elon_musk">Elon Musk</string>
+    <string name="homeless">Homeless</string>
+    <string name="socratic">Socratic</string>
+    <string name="albert_einstein">Albert Einstein</string>
+    <string name="pc_gamer">PC Gamer</string>
+    <string name="gypsy_woman">Gypsy woman</string>
+    <string name="blogger">Blogger</string>
     <string name="intro_socratic">Greetings, seeker of wisdom. What queries stir within you?</string>
     <string name="intro_tesla">Greetings, harbinger of innovation. What sparks your curiosity today?</string>
     <string name="intro_einstein">Greetings, seeker of cosmic truths. What puzzles your intellect?</string>

@@ -154,5 +154,13 @@
 - Neuralink, OpenAI, Zip2 및 X.com(PayPal의 일부)의 공동 창업자</string>
     <string name="about_gamer">"나는 PC 게임의 복잡한 풍경과 도전에서 기쁨을 느끼는 열렬한 애호가입니다."</string>
     <string name="about_blogger">"나는 열정적으로 내 카메라 렌즈를 통해 삶의 본질을 포착하고 디지털 영역에서 매혹적인 이야기를 짜고 있습니다."</string>
+    <string name="nicola_tesla">니콜라 테슬라</string>
+    <string name="elon_musk">일론 머스크</string>
+    <string name="homeless">노숙자</string>
+    <string name="socratic">소크라테스</string>
+    <string name="albert_einstein">알베르트 아인슈타인</string>
+    <string name="pc_gamer">PC 게이머</string>
+    <string name="gypsy_woman">집시 여성</string>
+    <string name="blogger">블로거</string>
 
 </resources>

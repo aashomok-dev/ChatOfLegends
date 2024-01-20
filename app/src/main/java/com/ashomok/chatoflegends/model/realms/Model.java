@@ -25,7 +25,7 @@ public class Model extends RealmObject implements Parcelable {
     //user id
     private String uid;
     //user photo url in server
-    private String modelNamePretty;
+    private int modelNamePretty;
     private String modelName;
     private int tokenNeeds;
     private boolean isBestChoice;
@@ -41,7 +41,7 @@ public class Model extends RealmObject implements Parcelable {
 
     protected Model(Parcel in) {
         uid = in.readString();
-        modelNamePretty = in.readString();
+        modelNamePretty = Integer.parseInt(in.readString());
         modelName = in.readString();
         tokenNeeds = Integer.parseInt(in.readString());
         isBestChoice = Boolean.getBoolean(in.readString());
@@ -50,19 +50,12 @@ public class Model extends RealmObject implements Parcelable {
         systemMsg = Integer.parseInt(in.readString());
     }
 
-    public String getModelNamePretty() {
+    public int getModelNamePretty() {
         return modelNamePretty;
     }
 
-    public void setModelNamePretty(String modelNamePretty) {
+    public void setModelNamePretty(int modelNamePretty) {
         this.modelNamePretty = modelNamePretty;
-    }
-
-    public String getProperUserName() {
-        if (null != modelNamePretty && !modelNamePretty.isEmpty())
-            return modelNamePretty;
-
-        return "";
     }
 
     public String getModelName() {
@@ -138,7 +131,7 @@ public class Model extends RealmObject implements Parcelable {
     @Override
     public void writeToParcel(Parcel dest, int flags) {
         dest.writeString(uid);
-        dest.writeString(modelNamePretty);
+        dest.writeString(String.valueOf(modelNamePretty));
         dest.writeString(modelName);
         dest.writeString(String.valueOf(tokenNeeds));
         dest.writeString(String.valueOf(isBestChoice));
