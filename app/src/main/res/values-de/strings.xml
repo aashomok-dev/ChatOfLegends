@@ -162,4 +162,11 @@
     <string name="pc_gamer">PC-Spieler</string>
     <string name="gypsy_woman">Zigeunerin</string>
     <string name="blogger">Blogger</string>
+    <string name="scientist_skill_title">"Die Fähigkeit des Wissenschaftlers."</string>
+    <string name="creativity_skill_title">"Die Kreativitätsfähigkeit."</string>
+    <string name="philosophy_skill_title">"Die Fähigkeit in Philosophie."</string>
+    <string name="scientist_skill_description">"Stärkt die Fähigkeit, Informationen kritisch zu analysieren, logische Argumente zu formulieren und anregende Gespräche zu führen, um ein tieferes Verständnis komplexer Themen in Gesprächen zu fördern."</string>
+    <string name="creativity_skill_description">"Bereichert Gespräche durch die Inspiration innovativer Ideen, die Förderung von einfallsreichem Denken und einzigartigen Perspektiven, um einen dynamischen und fesselnden Austausch kreativer Konzepte zu fördern."</string>
+    <string name="philosophy_skill_description">"Trägt zu Gesprächen bei, indem sie zum nachdenklichen Nachsinnen, analytischem Denken und der Erkundung grundlegender Fragen ermutigt und ein tieferes und nuancierteres Verständnis von der Welt und der menschlichen Erfahrung fördert."</string>
+
 </resources>

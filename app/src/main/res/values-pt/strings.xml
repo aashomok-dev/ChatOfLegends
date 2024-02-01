@@ -162,5 +162,11 @@
     <string name="pc_gamer">Jogador de PC</string>
     <string name="gypsy_woman">Mulher cigana</string>
     <string name="blogger">Blogger</string>
+    <string name="scientist_skill_title">"A habilidade do Cientista."</string>
+    <string name="creativity_skill_title">"A habilidade Criativa."</string>
+    <string name="philosophy_skill_title">"A habilidade em Filosofia."</string>
+    <string name="scientist_skill_description">"Aprimora a capacidade de analisar criticamente informações, formular argumentos lógicos e participar de discussões perspicazes, promovendo uma compreensão mais profunda de temas complexos em conversas."</string>
+    <string name="creativity_skill_description">"Enriquece conversas inspirando ideias inovadoras, pensamento imaginativo e perspectivas únicas, encorajando um intercâmbio dinâmico e envolvente de conceitos criativos."</string>
+    <string name="philosophy_skill_description">"Contribui para conversas ao promover a contemplação cuidadosa, raciocínio analítico e exploração de questões fundamentais, fomentando uma compreensão mais profunda e matizada do mundo e da experiência humana."</string>
 
 </resources>

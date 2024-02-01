@@ -162,5 +162,11 @@
     <string name="pc_gamer">Игрок на ПК</string>
     <string name="gypsy_woman">Цыганская женщина</string>
     <string name="blogger">Блоггер</string>
+    <string name="scientist_skill_title">"Навык Ученого."</string>
+    <string name="creativity_skill_title">"Навык Творчества."</string>
+    <string name="philosophy_skill_title">"Навык в Философии."</string>
+    <string name="scientist_skill_description">"Улучшает способность к критическому анализу информации, формулированию логических аргументов и участию в продуктивных дискуссиях, способствуя более глубокому пониманию сложных тем в разговорах."</string>
+    <string name="creativity_skill_description">"Обогащает беседы, вдохновляя инновационные идеи, креативное мышление и уникальные перспективы, поощряя динамичный и увлекательный обмен творческими концепциями."</string>
+    <string name="philosophy_skill_description">"Способствует беседам, поощряя вдумчивое размышление, аналитическое мышление и исследование фундаментальных вопросов, способствуя более глубокому и нюансированному пониманию мира и человеческого опыта."</string>
 
 </resources>

@@ -162,5 +162,10 @@
     <string name="about_elon_musk">Elon Reeve Musk (born June 28, 1971) is a businessman and investor. He is the wealthiest person in the world. \n- Founder, CEO, and chief engineer of SpaceX\n- CEO and product architect of Tesla, Inc.\n- Owner and CTO of X, formerly Twitter\n- President of the Musk Foundation\n- Founder of The Boring Company, X Corp., and xAI\n- Co-founder of Neuralink, OpenAI, Zip2, and X.com (part of PayPal)</string>
     <string name="about_gamer">"I am a passionate enthusiast who finds joy in the intricate landscapes and challenges of PC gaming. "</string>
     <string name="about_blogger">"I am passionately captures and shares the essence of life through the lens of his camera, weaving compelling stories in the digital realm. "</string>
-
+    <string name="scientist_skill_title">"The Scientist skill."</string>
+    <string name="creativity_skill_title">"The Creativity skill."</string>
+    <string name="philosophy_skill_title">"The Philosophy skill."</string>
+    <string name="scientist_skill_description">"Enhances one's ability to critically analyze information, formulate logical arguments, and engage in insightful discussions, fostering a deeper understanding of complex subjects in conversations."</string>
+    <string name="creativity_skill_description">"Enriches conversations by inspiring innovative ideas, imaginative thinking, and unique perspectives, encouraging a dynamic and engaging exchange of creative concepts."</string>
+    <string name="philosophy_skill_description">"Contributes to conversations by promoting thoughtful contemplation, analytical reasoning, and the exploration of fundamental questions, fostering a deeper and more nuanced understanding of the world and human experience."</string>
 </resources>

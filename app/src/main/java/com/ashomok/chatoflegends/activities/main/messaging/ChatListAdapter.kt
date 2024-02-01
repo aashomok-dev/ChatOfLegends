@@ -3,18 +3,23 @@ package com.ashomok.chatoflegends.activities.main.messaging
 import android.app.AlertDialog
 import android.content.Context
 import android.content.DialogInterface
+import android.view.Gravity
 import android.view.LayoutInflater
 import android.view.View
 import android.view.View.GONE
 import android.view.View.VISIBLE
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
+import android.widget.Button
 import android.widget.ImageView
+import android.widget.LinearLayout
+import android.widget.PopupWindow
 import android.widget.TextView
 import com.ashomok.chatoflegends.R
 import com.ashomok.chatoflegends.model.realms.Chat
 import com.ashomok.chatoflegends.utils.LogHelper
 import com.ashomok.chatoflegends.utils.SharedPreferencesManager
+import com.google.android.material.internal.ContextUtils.getActivity
 
 class ChatListAdapter(private val context: Context, resource: Int) : ArrayAdapter<Chat>(
     context, resource
@@ -121,6 +126,11 @@ class ChatListAdapter(private val context: Context, resource: Int) : ArrayAdapte
             skill1Icon.setImageResource(iconSkill1Id)
             skill2Icon.setImageResource(iconSkill2Id)
             skill3Icon.setImageResource(iconSkill3Id)
+
+            setSkillClickListener(view, item, skill1Icon, iconSkill1Id);
+            setSkillClickListener(view, item, skill2Icon, iconSkill2Id);
+            setSkillClickListener(view, item, skill3Icon, iconSkill3Id);
+
             about.setOnClickListener {
                 AlertDialog.Builder(view.context)
                     .setTitle(item.model?.modelNamePretty!!)
@@ -137,6 +147,41 @@ class ChatListAdapter(private val context: Context, resource: Int) : ArrayAdapte
             LogHelper.e(TAG, e.message)
         }
         return view
+    }
+
+    fun setSkillClickListener(view: View, item: Chat, iv: ImageView, iconSkillId: Int) {
+        if (iconSkillId == R.drawable.scientist_icon) {
+            iv.setOnClickListener {
+                AlertDialog.Builder(view.context)
+                    .setTitle(context.getString(R.string.scientist_skill_title))
+                    .setMessage(context.getString(R.string.scientist_skill_description))
+                    .setPositiveButton(
+                        view.resources.getString(R.string.ok)
+                    ) { _: DialogInterface?, _: Int -> }
+                    .show()
+
+            }
+        } else if (iconSkillId == R.drawable.creative_icon) {
+            iv.setOnClickListener {
+                AlertDialog.Builder(view.context)
+                    .setTitle(context.getString(R.string.creativity_skill_title))
+                    .setMessage(context.getString(R.string.creativity_skill_description))
+                    .setPositiveButton(
+                        view.resources.getString(R.string.ok)
+                    ) { _: DialogInterface?, _: Int -> }
+                    .show()
+            }
+        } else if (iconSkillId == R.drawable.old_philosophers) {
+            iv.setOnClickListener {
+                AlertDialog.Builder(view.context)
+                    .setTitle(context.getString(R.string.philosophy_skill_title))
+                    .setMessage(context.getString(R.string.philosophy_skill_description))
+                    .setPositiveButton(
+                        view.resources.getString(R.string.ok)
+                    ) { _: DialogInterface?, _: Int -> }
+                    .show()
+            }
+        }
     }
 
     companion object {

@@ -162,5 +162,11 @@
     <string name="pc_gamer">PCゲーマー</string>
     <string name="gypsy_woman">ジプシーの女性</string>
     <string name="blogger">ブロガー</string>
+    <string name="scientist_skill_title">"科学者のスキル."</string>
+    <string name="creativity_skill_title">"クリエイティビティのスキル."</string>
+    <string name="philosophy_skill_title">"哲学のスキル."</string>
+    <string name="scientist_skill_description">"情報を批判的に分析し、論理的な議論を組み立て、深い洞察に富んだ議論に参加する能力を高め、対話において複雑なテーマの深い理解を促進します。"</string>
+    <string name="creativity_skill_description">"革新的なアイデア、想像力豊かな思考、独自の視点をインスパイアし、クリエイティブなコンセプトをダイナミックで引き込まれる交流に駆り立てます。"</string>
+    <string name="philosophy_skill_description">"慎重な考察、分析的な推論、基本的な問いの探求を促進し、世界と人間の経験についてより深い洞察をもたらします。"</string>
 
 </resources>

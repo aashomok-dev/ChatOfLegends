@@ -162,5 +162,11 @@
     <string name="pc_gamer">Gracz PC</string>
     <string name="gypsy_woman">Cyganka</string>
     <string name="blogger">Blogger</string>
+    <string name="scientist_skill_title">"Umiejętność Naukowca."</string>
+    <string name="creativity_skill_title">"Umiejętność Kreatywna."</string>
+    <string name="philosophy_skill_title">"Umiejętność w Filozofii."</string>
+    <string name="scientist_skill_description">"Wzmacnia zdolność krytycznej analizy informacji, formułowania logicznych argumentów oraz uczestniczenia w merytorycznych dyskusjach, sprzyjając głębszemu zrozumieniu skomplikowanych tematów podczas rozmów."</string>
+    <string name="creativity_skill_description">"Wzbogaca rozmowy, inspirując innowacyjne pomysły, kreatywne myślenie i unikalne perspektywy, zachęcając do dynamicznej i angażującej wymiany kreatywnych koncepcji."</string>
+    <string name="philosophy_skill_description">"Przyczynia się do rozmów, promując refleksyjne zastanowienie, logiczne rozumowanie i eksplorację fundamentalnych pytań, sprzyjając głębszemu i bardziej niuansowanemu zrozumieniu świata i ludzkiego doświadczenia."</string>
 
 </resources>

@@ -162,5 +162,11 @@
     <string name="pc_gamer">PC 게이머</string>
     <string name="gypsy_woman">집시 여성</string>
     <string name="blogger">블로거</string>
+    <string name="scientist_skill_title">"과학자 기술."</string>
+    <string name="creativity_skill_title">"창의성 기술."</string>
+    <string name="philosophy_skill_title">"철학 기술."</string>
+    <string name="scientist_skill_description">"정보를 비판적으로 분석하고 논리적인 주장을 구성하며 통찰력 있는 토론에 참여할 수 있는 능력을 향상시켜, 대화에서 복잡한 주제에 대한 깊은 이해를 촉진합니다."</string>
+    <string name="creativity_skill_description">"혁신적인 아이디어를 영감을 주며 상상력 풍부한 사고와 독특한 시각을 제공하여 창의적인 개념의 동적이고 매료적인 교활을 촉진합니다."</string>
+    <string name="philosophy_skill_description">"신중한 사유, 분석적 추론 및 기본적인 질문의 탐구를 촉진하여 세계와 인간 경험에 대한 보다 깊고 세밀한 이해를 촉진합니다."</string>
 
 </resources>

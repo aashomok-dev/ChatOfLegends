@@ -162,5 +162,11 @@
     <string name="pc_gamer">Joueur PC</string>
     <string name="gypsy_woman">Femme gitane</string>
     <string name="blogger">Blogueur</string>
+    <string name="scientist_skill_title">"La compétence du Scientifique."</string>
+    <string name="creativity_skill_title">"La compétence en Créativité."</string>
+    <string name="philosophy_skill_title">"La compétence en Philosophie."</string>
+    <string name="scientist_skill_description">"Améliore la capacité à analyser de manière critique l'information, à formuler des arguments logiques et à participer à des discussions perspicaces, favorisant une compréhension plus profonde de sujets complexes lors des conversations."</string>
+    <string name="creativity_skill_description">"Enrichit les conversations en inspirant des idées novatrices, une pensée imaginative et des perspectives uniques, encourageant un échange dynamique et captivant de concepts créatifs."</string>
+    <string name="philosophy_skill_description">"Contribue aux conversations en favorisant la réflexion attentive, le raisonnement analytique et l'exploration de questions fondamentales, favorisant une compréhension plus profonde et nuancée du monde et de l'expérience humaine."</string>
 
 </resources>

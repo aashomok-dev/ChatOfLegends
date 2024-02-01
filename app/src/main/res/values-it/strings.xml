@@ -163,5 +163,11 @@
     <string name="pc_gamer">Gamer PC</string>
     <string name="gypsy_woman">Donna gitana</string>
     <string name="blogger">Blogger</string>
+    <string name="scientist_skill_title">"La competenza del Ricercatore."</string>
+    <string name="creativity_skill_title">"La competenza Creativa."</string>
+    <string name="philosophy_skill_title">"La competenza in Filosofia."</string>
+    <string name="scientist_skill_description">"Potenzia la capacità di analizzare criticamente le informazioni, formulare argomenti logici e partecipare a discussioni profonde, favorendo una comprensione più approfondita di argomenti complessi nelle conversazioni."</string>
+    <string name="creativity_skill_description">"Arricchisce le conversazioni ispirando idee innovative, pensiero creativo e prospettive uniche, incoraggiando uno scambio dinamico e coinvolgente di concetti creativi."</string>
+    <string name="philosophy_skill_description">"Contribuisce alle conversazioni promuovendo una riflessione attenta, un ragionamento analitico e l'esplorazione di questioni fondamentali, favorendo una comprensione più profonda e sfumata del mondo e dell'esperienza umana."</string>
 
 </resources>

@@ -162,5 +162,11 @@
     <string name="pc_gamer">PC玩家</string>
     <string name="gypsy_woman">吉普赛女人</string>
     <string name="blogger">博主</string>
+    <string name="scientist_skill_title">"科学家技能."</string>
+    <string name="creativity_skill_title">"创造力技能."</string>
+    <string name="philosophy_skill_title">"哲学技能."</string>
+    <string name="scientist_skill_description">"增强批判性分析信息、构建逻辑论点和参与深入讨论的能力，促进在对话中对复杂主题的更深层次理解。"</string>
+    <string name="creativity_skill_description">"通过激发创新思想、富有想象力的思维和独特的视角，丰富了对话，鼓励创意概念的动态而引人入胜的交流。"</string>
+    <string name="philosophy_skill_description">"通过推动深思熟虑、分析性推理和探讨基本问题，为对话做出贡献，促进对世界和人类经验更深层次、更细致入微的理解。"</string>
 
 </resources>
