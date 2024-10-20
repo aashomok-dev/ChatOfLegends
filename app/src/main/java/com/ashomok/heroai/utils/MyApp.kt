@@ -9,7 +9,7 @@ import androidx.appcompat.app.AppCompatDelegate
 import androidx.core.content.ContextCompat
 import androidx.multidex.MultiDex
 import com.aghajari.emojiview.AXEmojiManager
-import com.aghajari.emojiview.emoji.iosprovider.AXIOSEmojiProvider
+import com.aghajari.emojiview.appleprovider.AXAppleEmojiProvider
 import com.ashomok.heroai.R
 import com.google.firebase.analytics.FirebaseAnalytics
 import io.realm.Realm
@@ -52,7 +52,7 @@ class MyApp : Application(), ActivityLifecycleCallbacks {
 
 
     private fun initEmojiKeyboard() {
-        AXEmojiManager.install(this, AXIOSEmojiProvider(this))
+        AXEmojiManager.install(this, AXAppleEmojiProvider(this))
         val bgColor = ContextCompat.getColor(this, R.color.bgColor)
         val accentColor = ContextCompat.getColor(this, R.color.colorAccent)
         AXEmojiManager.getEmojiViewTheme().footerBackgroundColor = bgColor

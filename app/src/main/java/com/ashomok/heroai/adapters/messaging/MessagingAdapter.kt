@@ -18,8 +18,8 @@ import com.ashomok.heroai.adapters.messaging.holders.base.BaseHolder
 import com.ashomok.heroai.model.realms.Message
 import com.ashomok.heroai.model.realms.Model
 import com.ashomok.heroai.utils.TimeHelper
+import com.ashomok.heroai.views.RealmRecyclerViewAdapter
 import io.realm.OrderedRealmCollection
-import io.realm.RealmRecyclerViewAdapter
 
 /**
  * Created by Devlomi on 07/08/2017.
